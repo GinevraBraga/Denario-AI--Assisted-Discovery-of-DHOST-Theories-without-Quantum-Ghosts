@@ -1,0 +1,72 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Write out the general DHOST Lagrangian and identify all relevant terms.",
+                "Expand the action to quadratic order in perturbations around a flat background in unitary gauge.",
+                "Isolate the kinetic matrix for the propagating degrees of freedom.",
+                "Carefully document and verify all assumptions made when isolating the kinetic matrix, cross-checking with symbolic computation tools where possible.",
+                "Compute the determinant of the kinetic matrix and express the degeneracy condition explicitly in terms of the Lagrangian functions."
+            ],
+            "sub_task": "Derive the general degeneracy condition for the DHOST Lagrangian (Eq. 2.8, arXiv:1811.06271)",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Clearly separate the substitution of Type Ia relations (from arXiv:1602.08398) into the general degeneracy condition from the subsequent stability analysis.",
+                "Show explicitly that the degeneracy condition is satisfied for Type Ia.",
+                "Analyze the quadratic action for scalar and tensor perturbations on an FLRW background.",
+                "Explicitly label and document the code/calculation steps where the dispersion relations are computed and plotted.",
+                "Derive the dispersion relations and propagation speeds for physical modes.",
+                "Confirm the absence of ghost and gradient instabilities at tree level, making it easy to identify the impact of the degeneracy condition."
+            ],
+            "sub_task": "Restrict to Type Ia subclass and verify degeneracy, then analyze classical stability",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Propose a general non-linear, field-dependent transformation for the scalar and metric fields.",
+                "Compute the variation of the Type Ia DHOST action under this transformation.",
+                "Include intermediate checks: for example, verify that small perturbations in the transformation functions reproduce the degeneracy condition.",
+                "Derive the conditions for invariance and show their equivalence to the degeneracy condition, validating each step.",
+                "Solve for the explicit transformation functions generating the symmetry."
+            ],
+            "sub_task": "Investigate the existence of a hidden field-dependent gauge symmetry in Type Ia DHOST",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Use the path integral formalism to derive the Ward-Takahashi identities associated with the symmetry.",
+                "Systematically document the derivation and list all possible one-loop counterterms.",
+                "Compare the structure of the one-loop counterterms with known stability conditions in the literature.",
+                "Apply the Ward identities to constrain the structure of radiative corrections.",
+                "Demonstrate explicitly how the symmetry forbids the generation of ghostly or destabilizing terms at one-loop."
+            ],
+            "sub_task": "Derive Ward identities and analyze one-loop quantum stability",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Impose the additional constraints to reduce the Lagrangian to Beyond Horndeski and Horndeski forms.",
+                "Re-evaluate the degeneracy condition, transformation functions, and Ward identities in these limits.",
+                "Add explicit commentary within the computation on how the transition to these limits modifies or simplifies the symmetry structure, clearly marking any differences in the degeneracy condition and transformation functions.",
+                "Determine whether the symmetry persists and continues to protect against instabilities."
+            ],
+            "sub_task": "Analyze the symmetry and stability mechanism in the Horndeski and Beyond Horndeski limits",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Summarize the explicit derivation of the degeneracy condition and its satisfaction in Type Ia.",
+                "Discuss the demonstration of classical stability (absence of ghosts/gradients), referencing the labeled plots and calculations.",
+                "Present the discovery and explicit form of the field-dependent gauge symmetry and its equivalence to degeneracy, including validation steps.",
+                "Interpret the Ward identities and their implications for quantum stability at one-loop, referencing the systematic counterterm analysis.",
+                "Analyze the persistence and role of the symmetry in the Horndeski and Beyond Horndeski limits, including commentary on any modifications.",
+                "Include a critical discussion of the limitations and potential extensions of the observed gauge symmetry, referencing both computational results and theoretical derivations.",
+                "Reference and interpret all key plots, statistics, and computational results from previous steps to provide a cohesive and comprehensive results section."
+            ],
+            "sub_task": "Write the full Results section, including all qualitative and quantitative findings, interpretations, and references to plots/statistics",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
