@@ -1,0 +1,57 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Algebraically solve the first PDE for $\\Lambda(\\phi, X)$ in terms of $\\alpha(\\phi, X)$ and the free functions $F, A_1, A_3$.",
+                "Substitute this expression and its derivatives into the second PDE to obtain a single PDE for $\\alpha(\\phi, X)$.",
+                "Annotate all intermediate algebraic steps for transparency and reproducibility.",
+                "Check the consistency of the derived integrability condition with known special cases (e.g., trivial or previously studied limits).",
+                "Output the explicit form of this integrability condition, with all steps documented."
+            ],
+            "sub_task": "Derive the integrability condition for the existence of the gauge symmetry in Type Ia DHOST theories",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Propose and clearly document a simple ansatz for the free functions (e.g., $F(\\phi)$, $A_1(\\phi)$, $A_3(\\phi)$ or simple $X$-dependence), including any assumptions or branches considered.",
+                "Justify the physical motivation for the chosen ansatz.",
+                "Substitute the ansatz into the integrability condition and solve for the explicit forms of $F, A_1, A_3$.",
+                "With these functions, solve the first-order PDE for $\\alpha(\\phi, X)$ and then obtain $\\Lambda(\\phi, X)$.",
+                "Output the explicit forms of the model and its symmetry generators, with all assumptions and solution branches clearly stated."
+            ],
+            "sub_task": "Find a simple, explicit symmetric model and the corresponding symmetry generators",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Perform the background field expansion: $g_{\\mu\\nu} = \\bar{g}_{\\mu\\nu} + h_{\\mu\\nu}$, $\\phi = \\bar{\\phi} + \\varphi$.",
+                "Expand the action for the chosen model to second order in $h_{\\mu\\nu}$ and $\\varphi$.",
+                "Carefully discuss the selection of the gauge-fixing term, and verify that the inclusion of ghosts and their contributions do not affect the symmetry derivation.",
+                "Provide a summary of the operator structure before and after gauge fixing.",
+                "Output the explicit form of the quadratic operator, including the ghost sector if relevant."
+            ],
+            "sub_task": "Expand the action to quadratic order in fluctuations and construct the quadratic operator for the one-loop calculation",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Clearly separate the computation of the heat kernel coefficients from the background expansion so that divergences and resulting counter terms are explicitly tracked.",
+                "Use the heat kernel method to compute the divergent part of the one-loop effective action (the $a_2$ Seeley-DeWitt coefficient).",
+                "Write out the explicit form of the counter-term Lagrangian $\\mathcal{L}_{ct}$ in terms of the background fields.",
+                "Output the full one-loop effective action: $\\mathcal{L}_{eff} = \\mathcal{L}_{class} + \\mathcal{L}_{ct}$, with all steps and separation of contributions documented."
+            ],
+            "sub_task": "Compute the one-loop effective action and extract the divergent counter-terms",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Apply the gauge transformation (with the explicit $\\alpha$ and $\\Lambda$) to the effective action and check for invariance.",
+                "Identify the one-loop corrected coupling functions ($F_{eff}$, $A_{1,eff}$, etc.) and compare them with the original Type Ia degeneracy conditions.",
+                "Provide a detailed narrative of how the computed divergences and corrections signal the potential reemergence of a ghost or destabilizing kinetic term, explicitly relating these to the violation of the DHOST conditions.",
+                "Deliver a complete, self-contained Results section summarizing all findings, including explicit forms, anomaly analysis, and implications for quantum stability."
+            ],
+            "sub_task": "Analyze the anomaly and quantum stability of the effective action",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
