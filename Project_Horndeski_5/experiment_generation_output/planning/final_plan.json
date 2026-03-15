@@ -1,0 +1,70 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Extract and write down the explicit form of the Lagrangian from arXiv:2012.10218, including all relevant fields and potential terms.",
+                "Specify the FRW background metric and the background field configurations for Stückelberg fields and the auxiliary scalar.",
+                "Summarize the theoretical context and the motivation for searching for hidden symmetries that could protect against instabilities.",
+                "Include a brief discussion on the known difficulties in the absence of hidden symmetries (e.g., ghost/tachyonic instabilities) and how the FRW background influences the stability of the Lagrangian, to robustly set up the context."
+            ],
+            "sub_task": "Formalize the Lagrangian and FRW background setup",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Propose the most general form of the SMILS transformation acting on the metric, Stückelberg fields, and auxiliary scalar.",
+                "Clearly emphasize the iterative process required in deriving the transformation laws, explicitly indicating how the functional dependencies (e.g., on φ and its derivatives) are determined by invariance conditions.",
+                "Derive the explicit transformation laws for each variable by demanding invariance of the action.",
+                "Write down the resulting constraints on the potential functions and parameters.",
+                "Summarize the expected impact of the symmetry on the structure of the theory."
+            ],
+            "sub_task": "Derive and formalize the candidate Scalar-Modulated Internal Lorentz Symmetry (SMILS)",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Implement the ADM decomposition for the FRW metric and the full Lagrangian.",
+                "Compute the canonical momenta and identify all primary and secondary constraints.",
+                "Incorporate a step-by-step symbolic computation (or pseudocode outline) to track the emergence of primary and secondary constraints during the ADM decomposition, ensuring no detail is skipped in the ghost analysis.",
+                "Analyze the constraint algebra to confirm the absence of the Boulware-Deser ghost at the classical level.",
+                "Output the explicit form of the constraints and the counting of degrees of freedom."
+            ],
+            "sub_task": "Hamiltonian and constraint analysis for classical ghost freedom",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Expand the action to quadratic order in perturbations around the FRW background, including all relevant fields.",
+                "Construct the kinetic matrix for the scalar sector and compute its eigenvalues.",
+                "Explicitly define the method for diagonalizing the kinetic matrix and include instructions on how the eigenvalue spectra should be plotted against key parameters, to clarify detection of ghost or tachyonic modes.",
+                "Check for the presence of ghost or tachyonic instabilities at the one-loop level.",
+                "Save all relevant intermediate results and plots (e.g., eigenvalue spectra as a function of parameters)."
+            ],
+            "sub_task": "One-loop perturbative analysis and kinetic matrix computation",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Derive the modified Friedmann equations and solve for the background expansion history.",
+                "Compute the speed of gravitational waves and the growth rate of structure.",
+                "Compare model predictions with observational data (e.g., $H_0$, $c_T$, $f\\sigma_8$).",
+                "Generate plots and tables summarizing the compatibility with cosmological constraints.",
+                "Cross-verify the numerical results with observational benchmarks, ensuring that plotted tables and comparisons are robust and clearly linked to empirical datasets."
+            ],
+            "sub_task": "Observational viability and cosmological constraints",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Synthesize the findings from the classical and quantum stability analyses, including explicit forms of the symmetry transformations.",
+                "Interpret the results of the constraint algebra and kinetic matrix analysis, referencing the generated plots and statistics.",
+                "Discuss the robustness of the symmetry against ghost reappearance as per arXiv:2004.11655.",
+                "Summarize the model’s compatibility with observational constraints, referencing the quantitative results and plots.",
+                "Include a narrative that connects the classical and one-loop analyses to the observational implications, highlighting which specific plots (from Steps 4 and 5) are critical for substantiating the absence of ghosts and overall model viability.",
+                "Write a comprehensive Results section suitable for inclusion in the final paper."
+            ],
+            "sub_task": "Results synthesis and interpretation",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
