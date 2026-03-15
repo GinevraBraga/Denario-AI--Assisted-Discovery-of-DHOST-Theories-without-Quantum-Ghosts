@@ -1,0 +1,90 @@
+LaTeX Compilation Errors Found:
+
+! LaTeX Error: \begin{itemize} on input line 38 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+...
+
+l.106 \end{document}
+
+? [5] (./Methods.aux)
+
+
+! Missing $ inserted.
+<inserted text>
+$
+l.27 \begin{itemize}
+
+? ! Missing \endgroup inserted.
+<inserted text>
+\endgroup
+l.27 \begin{itemize}
+
+?
+
+! Emergency stop.
+<inserted text>
+\endgroup
+l.27 \begin{itemize}
+
+No pages of output.
+Transcript written on Methods_v1.log.
+---- STDERR ----
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+restricted \write18 enabled.
+entering extended mode
+
+! Undefined control sequence.
+<recently read> \midrule
+
+l.57 \midrule
+
+?
+Underfull \hbox (badness 1028) in paragraph at lines 58--59
+[]|\TU/lmr/m/n/9 Ensures positive kinetic
+
+Underfull \hbox (badness 1412) in paragraph at lines 58--59
+\TU/lmr/m/n/9 energy for gravitational
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\TU/lmr/m/n/9 Transverse
+
+Underfull \hbox (badness 2591) in paragraph at lines 59--60
+[]|\TU/lmr/m/n/9 Guarantees positive ki-
+
+Underfull \hbox (badness 1983) in paragraph at lines 59--60
+\TU/lmr/m/n/9 netic energy for trans-
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]|\TU/lmr/m/n/9 Requires non-negative
+
+Underfull \hbox (badness 1028) in paragraph at lines 61--62
+[]|\TU/lmr/m/n/9 Ensures positive kinetic
+
+Underfull \hbox (badness 1810) in paragraph at lines 62--63
+[]|\TU/lmr/m/n/9 Positive determinant of
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]|\TU/lmr/m/n/9 Requires non-negative
+
+Underfull \hbox (badness 6526) in paragraph at lines 63--64
+\TU/lmr/m/n/9 squared mass for the
+
+! Undefined control sequence.
+<recently read> \bottomrule
+
+l.64 \bottomrule
+
+?
+
+! Emergency stop.
+<recently read> \bottomrule
+
+l.64 \bottomrule
+
+Output written on Results.pdf (1 page).
+Transcript written on Results.log.
+---- STDERR ----
+

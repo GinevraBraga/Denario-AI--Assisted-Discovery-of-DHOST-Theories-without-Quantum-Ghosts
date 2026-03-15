@@ -1,0 +1,221 @@
+\begin{METHODS}
+Our methodological approach is designed to rigorously establish the existence of a "Generalized Disformal Galileon Symmetry" within the scalar-tensor framework of arXiv:2012.10218, and to demonstrate its efficacy in ensuring the theory is free of ghost instabilities up to the one-loop level. The workflow is divided into six sequential stages.
+
+\subsection{Theoretical Framework and Action Specification}
+First, we will begin with the general action for the scalar-tensor theory as defined in arXiv:2012.10218. We will explicitly write down the Lagrangian, which is a function of the metric $g_{\mu\nu}$, the scalar field $\phi$, and its first and second derivatives, $\phi_\mu \equiv \nabla_\mu \phi$ and $\phi_{\mu\nu} \equiv \nabla_\mu \nabla_\nu \phi$. The action takes the general form:
+$$ S = \int d^4x \sqrt{-g} \, \mathcal{L}(g_{\mu\nu}, \phi, \phi_\mu, \phi_{\mu\nu}) $$
+Our initial analytical step involves identifying the specific functional dependencies within $\mathcal{L}$ that are susceptible to ghost instabilities. This will guide our search for a symmetry that constrains these specific terms.
+
+\subsection{Construction of the Generalized Disformal Galileon Transformation}
+The core of our investigation is to find a hidden symmetry. We hypothesize that this symmetry arises from a specific combination of a disformal transformation of the metric and a transformation of the scalar field. We will define a general transformation as:
+\begin{align*}
+    \tilde{g}_{\mu\nu} &= C(\phi, X) g_{\mu\nu} + D(\phi, X) \phi_\mu \phi_\nu \\
+    \tilde{\phi} &= f(\phi, X, ...)
+\end{align*}
+where $X = -\frac{1}{2}g^{\mu\nu}\phi_\mu\phi_\nu$.
+
+Our task is to determine the specific functional forms of $C$, $D$, and the transformation rule for $\phi$ that leave the action invariant. This will be achieved by applying the infinitesimal version of these transformations to the action and demanding that the variation $\delta S$ vanishes or is a total derivative. This process will yield a set of differential equations for the arbitrary functions in the Lagrangian and for the transformation functions $C$ and $D$. Solving this system will allow us to explicitly construct the "Generalized Disformal Galileon Transformation." We will write down the explicit infinitesimal transformation rules for $\delta\phi$ and $\delta g_{\mu\nu}$ that constitute this symmetry.
+
+\subsection{Classical Stability Analysis: Absence of Ghosts}
+To confirm that the identified symmetry protects the theory from classical instabilities, we will perform a perturbative analysis. We will expand the action around a background solution, typically a Minkowski background ($g_{\mu\nu} = \eta_{\mu\nu}$, $\phi = \phi_0$) for simplicity, but also a cosmological FLRW background for observational relevance. We will consider linear perturbations $\delta\phi$ and $h_{\mu\nu} = g_{\mu\nu} - \bar{g}_{\mu\nu}$.
+
+The procedure is as follows:
+1.  Expand the full action up to second order in the perturbation fields $\delta\phi$ and $h_{\mu\nu}$.
+2.  After decomposing the perturbations into scalar, vector, and tensor modes, we will integrate out the non-dynamical auxiliary fields to obtain the quadratic action for the propagating degrees of freedom.
+3.  We will then extract the kinetic matrix, $\mathbf{K}$, for the dynamical fields.
+4.  The condition for the absence of ghosts is that this matrix must be positive definite. We will demonstrate analytically that the conditions imposed on the Lagrangian by the Generalized Disformal Galileon Symmetry are precisely the same conditions required for $\mathbf{K}$ to be positive definite. This will provide a direct proof that the symmetry ensures the absence of ghost instabilities at the classical level.
+
+\subsection{One-Loop Analysis for Ghost-Freedom}
+The primary contribution of this work is to show that the theory remains ghost-free at the quantum level. We will demonstrate this by calculating the one-loop corrections to the kinetic terms of the scalar and tensor propagators using the background field method.
+
+The methodology is:
+1.  Split the fields into a classical background ($\bar{g}_{\mu\nu}$, $\bar{\phi}$) and quantum fluctuations ($\hat{h}_{\mu\nu}$, $\hat{\phi}$).
+2.  Expand the action to all orders in the quantum fluctuations. The quadratic part will define the propagators, while cubic and higher-order terms will define the interaction vertices.
+3.  We will compute the one-loop contributions to the two-point functions of the scalar and tensor modes. This involves calculating the relevant Feynman diagrams (e.g., loops of gravitons and scalars).
+4.  The crucial step is to use the Ward identity associated with our Generalized Disformal Galileon Symmetry. We will show how this identity constrains the form of the loop integrals, leading to cancellations. Specifically, we will demonstrate that the quantum corrections to the kinetic part of the effective action do not introduce new poles in the propagators or flip the sign of the kinetic terms. This result, analogous to the non-renormalization theorems in Galileon theories, will prove that the theory is one-loop ghost-free. We will explicitly show that the coefficients of the kinetic terms in the one-loop effective action remain positive.
+
+\subsection{Relation to Standard Symmetries and Observational Viability}
+To ground our results, we will connect our proposed symmetry to known physics and test its compatibility with observations.
+
+1.  **Galilean Symmetry as a Special Case:** We will show that the standard Galileon symmetry is a specific limit of our more general transformation. By setting the disformal functions to their trivial values ($C(\phi, X) \to 1$, $D(\phi, X) \to 0$), we will demonstrate that our Generalized Disformal Galileon Transformation reduces to the familiar form $\delta\phi = c + v^\mu \phi_\mu$. This will clarify the relationship and highlight why the Galileon is a special, protected case.
+
+2.  **Observational Constraints:** We will verify the viability of the theory under the symmetry constraints.
+    *   **Speed of Gravitational Waves:** Using the quadratic action for tensor perturbations $h_{ij}$ derived in Section 3.3, we will calculate the propagation speed $c_T$. We will show that the symmetry conditions on the Lagrangian enforce $c_T^2 = 1$, in agreement with the GW170817/GRB 170817A constraint.
+    *   **Cosmological Dynamics:** We will derive the modified Friedmann equations by applying the full equations of motion to an FLRW metric. We will then seek solutions and demonstrate that the theory can drive cosmic acceleration and produce a background expansion history consistent with supernova and CMB data.
+    *   **Structure Growth:** We will analyze the evolution of linear scalar perturbations on the FLRW background. We will compute the effective gravitational constant $G_{\text{eff}}$ and the gravitational slip parameter $\eta$, and show that their values and evolution can be made consistent with large-scale structure observations.
+
+\subsection{Evasion of Ghost Re-emergence on Cosmological Backgrounds}
+Finally, we must address the potential re-emergence of ghosts on time-dependent backgrounds, as argued in arXiv:2004.11655. Their argument hinges on the background solution explicitly breaking the symmetry that was present in the action.
+
+Our analysis will proceed by:
+1.  Explicitly applying the Generalized Disformal Galileon Transformation to the full system, including the FLRW background solution $\bar{\phi}(t)$.
+2.  We will demonstrate that, due to the inherent coupling between the scalar field and the metric geometry in our disformal framework, the symmetry is not broken in the same way as the simple global symmetries considered in prior work.
+3.  We will re-evaluate the quadratic action for perturbations around the FLRW background. We will show that the constraint which eliminates the ghost degree of freedom remains effective even with a time-dependent background. This will prove that our symmetry provides a robust protection mechanism that is not vulnerable to this specific ghost re-emergence problem.
+\end{METHODS}
+
+\begin{METHODS}
+Our investigation will proceed through a systematic, multi-stage analysis. We will begin by defining the theoretical framework and then rigorously derive the proposed symmetries. Subsequently, we will test the classical viability of the resulting theory before moving to the core of the project: the one-loop quantum analysis to establish its resilience against instabilities.
+
+### 1. Framework: The Generalized G-inflation Lagrangian
+
+First, you need to establish our starting point. The action for the generalized G-inflation model, as presented in arXiv:2012.10218, is given by:
+$S = \int d^4x \sqrt{-g} \mathcal{L}$,
+where the Lagrangian density $\mathcal{L}$ is a sum of four terms:
+$\mathcal{L} = G_2(\phi, X) - G_3(\phi, X) \Box\phi + G_4(\phi, X) R + G_{4,X}(\phi, X) [(\Box\phi)^2 - (\nabla_\mu\nabla_\nu\phi)^2]$.
+
+Here, $\phi$ is the scalar field, $R$ is the Ricci scalar, and $X = -\frac{1}{2}g^{\mu\nu}\partial_\mu\phi\partial_\nu\phi$ is the canonical kinetic term. The functions $G_i$ are arbitrary functions of $\phi$ and $X$. Your initial task is to familiarize yourself with the structure of this Lagrangian, particularly the origin of the $G_4$ term, which is essential for constructing a ghost-free theory at the classical level (a Horndeski theory).
+
+### 2. Derivation of the Quantum-Resilient Disformal Symmetry
+
+This is the central constructive part of our work. We will identify the specific disformal transformations that act as a symmetry of the action.
+
+**2.1. Defining the Transformation:**
+Consider a general disformal transformation of the metric and a transformation of the scalar field:
+$\tilde{g}_{\mu\nu} = C(\phi, X) g_{\mu\nu} + D(\phi, X) \partial_\mu \phi \partial_\nu \phi$
+$\tilde{\phi} = f(\phi)$
+
+For our purposes, we will initially set $\tilde{\phi} = \phi$ and focus on the metric transformation. Your task is to apply this transformation to every component of the action $S$. This involves calculating the transformation of $\sqrt{-g}$, the inverse metric $g^{\mu\nu}$, the Ricci scalar $R$, the kinetic term $X$, and the d'Alembertian $\Box\phi$.
+
+**2.2. Imposing Invariance:**
+After transforming the action, you will demand that the new action $\tilde{S}$ in terms of the transformed variables $(\tilde{g}_{\mu\nu}, \phi)$ is equivalent to the original action $S$ in terms of $(g_{\mu\nu}, \phi)$, up to a possible boundary term. This condition, $\delta S = \tilde{S} - S = 0$, will not hold for arbitrary functions $C$, $D$, and $G_i$.
+
+Your goal is to derive the set of coupled differential equations that relate $C(\phi, X)$, $D(\phi, X)$, and the Lagrangian functions $G_i(\phi, X)$. Solving this system will give us the explicit functional forms of the disformal transformations that constitute the symmetry and the specific class of G-inflation models that admit this symmetry. These are the "Quantum-Resilient Disformal Symmetries" we are proposing. Write down these symmetry transformations and the constrained forms of the $G_i$ functions explicitly.
+
+### 3. Classical Stability and Observational Compatibility
+
+Before proceeding to the quantum analysis, we must ensure our symmetric theory is classically viable. You will perform a standard cosmological perturbation analysis.
+
+**3.1. Perturbative Action:**
+Expand the action derived in the previous step up to second order in perturbations around a flat Friedmann-Robertson-Walker (FRW) background metric and a time-dependent scalar field $\phi(t)$.
+$ds^2 = -N^2 dt^2 + h_{ij}(dx^i + N^i dt)(dx^j + N^j dt)$
+$\phi = \phi_0(t) + \delta\phi(t, \mathbf{x})$
+
+You will need to derive the quadratic action for the scalar and tensor perturbations. For the scalar sector, integrate out the auxiliary fields $N$ and $N^i$ to obtain an action solely in terms of the curvature perturbation $\zeta$.
+
+**3.2. Stability and Observational Constraints:**
+From the quadratic actions, you will extract the kinetic and gradient terms for the scalar mode $\zeta$ and the two tensor (gravitational wave) modes $h_{+, \times}$.
+The conditions for classical stability are:
+1.  **No-Ghost Condition:** The kinetic terms for both scalar and tensor modes must be positive definite.
+2.  **No-Tachyon Condition:** The squared sound speeds, $c_s^2$ and $c_T^2$, for scalar and tensor modes must be non-negative.
+
+You must explicitly calculate the expressions for the kinetic coefficients and the sound speeds. Then, demonstrate that the constraints on the $G_i$ functions imposed by the disformal symmetry automatically satisfy these no-ghost and no-tachyonic instability conditions.
+
+Furthermore, impose the observational constraint that gravitational waves travel at the speed of light, $c_T^2 = 1$. Show how this constraint further specifies the allowed forms of the symmetry transformations and the Lagrangian.
+
+### 4. One-Loop Analysis: The Algebraic Selection Rule
+
+This is the most critical part of the analysis, where we demonstrate the "quantum-resilience." We will show that the symmetry forbids the generation of ghost instabilities at the one-loop level.
+
+**4.1. The One-Loop Effective Action:**
+We will use the background field method. The one-loop effective action $\Gamma^{(1)}$ is given by the functional determinant of the operator governing quadratic fluctuations around a classical background.
+$\Gamma^{(1)} = \frac{i}{2} \text{Tr} \ln(\mathcal{O})$
+where $\mathcal{O}$ is the operator obtained from the second variation of the action, $\mathcal{O}_{AB} = \frac{\delta^2 S}{\delta \Psi^A \delta \Psi^B}$, and $\Psi^A$ represents the fluctuation fields (e.g., $\delta\phi, h_{\mu\nu}$).
+
+**4.2. Heat Kernel Expansion and Counterterms:**
+Calculating the full functional determinant is intractable. Instead, you will compute its UV divergent part using the heat kernel expansion. The divergent part of the effective action is related to the Seeley-DeWitt coefficient $a_2[x]$ of the operator $\mathcal{O}$.
+$\Gamma^{(1)}_{\text{div}} = \frac{1}{16\pi^2(d-4)} \int d^4x \sqrt{-g} \text{Tr}(a_2)$
+
+Your task is to compute the $a_2$ coefficient for the fluctuation operator of our symmetric theory. The resulting expression will be a local functional of the background fields and their derivatives (e.g., $R, R_{\mu\nu}R^{\mu\nu}, (\Box\phi)^2$, etc.). This expression dictates the structure of the counterterm Lagrangian, $\mathcal{L}_{ct} \propto \text{Tr}(a_2)$, needed to renormalize the theory.
+
+**4.3. Proving Ghost-Freeness:**
+The central step is to analyze the structure of $\mathcal{L}_{ct}$. The argument from arXiv:2004.11655 is that even if the classical theory is ghost-free, the counterterms might re-introduce higher-derivative operators or kinetic terms with the wrong sign, such as $-(\Box\phi)^2$ or $(\nabla_\mu\nabla_\nu\phi)^2$ with a negative coefficient, which signal a ghost.
+
+You must explicitly show that for our disformally-invariant theory, the coefficients of all such dangerous operators within $\text{Tr}(a_2)$ are identically zero. This is the "algebraic selection rule" at work. The symmetry of the classical action constrains the form of the quantum corrections such that no new instabilities are generated at one-loop. You need to demonstrate this cancellation explicitly. This will prove that the kinetic matrix for the propagating degrees of freedom remains positive-definite even after including first-order quantum corrections.
+
+### 5. Relation to Galilean Symmetry
+
+Finally, we will place our result in the context of known symmetries.
+
+**5.1. The Flat Spacetime Limit:**
+Take the disformal symmetry transformation you derived in Section 2 and the corresponding constrained Lagrangian. Analyze its form in the limit $g_{\mu\nu} \to \eta_{\mu\nu}$ (Minkowski spacetime).
+
+**5.2. Emergence of Galilean Symmetry:**
+Show that for a specific choice of the functions $C$ and $D$ (which should be a valid solution from Section 2), the transformation on the scalar field perturbation, $\pi = \delta\phi$, in this limit reduces to the Galilean shift symmetry:
+$\pi \to \pi + c + b_\mu x^\mu$
+
+Explain how the non-linear structure of the standard Galileon Lagrangian is a necessary consequence of this symmetry. This will establish that the Galilean symmetry is a particular instance of the more general, covariant "Quantum-Resilient Disformal Symmetry" that we have uncovered.
+\end{METHODS}
+
+\begin{METHODS}
+This research project is structured into six distinct stages. We will begin by defining the theoretical framework and the proposed symmetry transformations. Subsequently, we will perform a rigorous stability analysis at both the tree and one-loop levels. Finally, we will assess the theory's ultraviolet behavior and test its compatibility with key cosmological and gravitational observations.
+
+\subsection{Theoretical Framework and Lagrangian Specification}
+
+Our starting point is the Generalized Proca action, as described in arXiv:2012.10218, which includes a vector field $A_\mu$ and a scalar field $\phi$. The action is given by $S = \int d^4x \sqrt{-g} \mathcal{L}$, where the Lagrangian density $\mathcal{L}$ is composed of several pieces:
+$$
+\mathcal{L} = \sum_{i=2}^{6} \mathcal{L}_i
+$$
+The individual Lagrangian terms $\mathcal{L}_i$ are constructed from the metric $g_{\mu\nu}$, the vector field $A_\mu$ and its field strength $F_{\mu\nu} = \nabla_\mu A_\nu - \nabla_\nu A_\mu$, and the scalar field $\phi$ and its first derivative $X = -\frac{1}{2} \nabla_\mu \phi \nabla^\mu \phi$. The explicit forms of $\mathcal{L}_2$ through $\mathcal{L}_6$ are defined by the set of functions $G_i(X, \phi)$ and will be taken directly from the source paper. Our task is to find a specific realization of these functions that admits a protective symmetry.
+
+\subsection{Construction of the Dynamically-Coupled Disformal-Galileon Transformation}
+
+We propose a novel hidden symmetry that unifies a disformal transformation of the metric with a Galilean transformation of the scalar field. The disformal factors will not be arbitrary functions but will be constructed dynamically from the scalar field's own Galileon-invariant terms.
+
+\textbf{Step 1: Define Galileon Building Blocks.} We first define the standard Galileon Lagrangians for the scalar field $\phi$:
+\begin{itemize}
+    \item $\mathcal{L}_1^\phi = \phi$
+    \item $\mathcal{L}_2^\phi = \nabla_\mu \phi \nabla^\mu \phi$
+    \item $\mathcal{L}_3^\phi = (\Box \phi) \nabla_\mu \phi \nabla^\mu \phi$
+    \item $\mathcal{L}_4^\phi = (\Box\phi)^2 \nabla_\mu \phi \nabla^\mu \phi - 2(\Box\phi) \nabla_\mu \phi \nabla_\nu \phi \nabla^\mu \nabla^\nu \phi + ...$
+    \item $\mathcal{L}_5^\phi = ...$
+\end{itemize}
+These terms are invariant under the Galilean transformation $\phi \rightarrow \phi + c + v_\mu x^\mu$.
+
+\textbf{Step 2: Propose the Transformation Rules.} We postulate the following set of transformation rules under which the full action $S$ must remain invariant:
+\begin{itemize}
+    \item \textbf{Scalar Field Transformation:} The scalar field transforms as a standard Galileon:
+    $$
+    \delta \phi = c + v_\mu x^\mu
+    $$
+    where $c$ and $v_\mu$ are constants.
+    \item \textbf{Metric Transformation:} The metric undergoes a disformal transformation where the conformal and disformal factors, $C$ and $D$, are explicit functions of the scalar Galileon terms, for instance $C(\mathcal{L}_2^\phi)$ and $D(\mathcal{L}_3^\phi)$:
+    $$
+    \delta g_{\mu\nu} = C(\mathcal{L}_i^\phi) g_{\mu\nu} + D(\mathcal{L}_j^\phi) \nabla_\mu \phi \nabla_\nu \phi
+    $$
+    The precise functional forms of $C$ and $D$ will be determined by demanding the invariance of the action.
+    \item \textbf{Vector Field Transformation:} The vector field transforms to absorb the variations from the metric and scalar field transformations. The proposed transformation is:
+    $$
+    \delta A_\mu = \alpha(\mathcal{L}_k^\phi) \nabla_\mu \phi
+    $$
+    The function $\alpha$ will also be fixed by the invariance requirement.
+\end{itemize}
+
+\textbf{Step 3: Verification of Invariance and Galilean Limit.} We will substitute these transformation rules into the full action $S$. By requiring the variation $\delta S$ to be zero (or a total derivative), we will derive a set of consistency conditions on the functions $G_i(X, \phi)$ of the Proca Lagrangian and the functions $C, D, \alpha$ in our transformation rules. This procedure will fix the specific form of the theory that respects this symmetry. We will then explicitly show that in the limit $C \to 1$ and $D \to 0$, our symmetry reduces to a standard internal Galilean symmetry for the components of the Proca field.
+
+\subsection{Tree-Level Stability Analysis}
+
+To ensure the classical viability of the theory, we will perform a stability analysis on a Minkowski background ($g_{\mu\nu} = \eta_{\mu\nu}$, $\phi = \bar{\phi}$, $A_\mu = 0$).
+
+\textbf{Step 1: Derive the Quadratic Action.} We will expand the action to second order in perturbations: $\phi = \bar{\phi} + \pi$, $A_\mu = a_\mu$, and $g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu}$. This will yield the quadratic action $S^{(2)}$ governing the dynamics of the linear fluctuations.
+
+\textbf{Step 2: Ghost-Free Conditions.} We will identify all kinetic terms in $S^{(2)}$. The absence of ghosts requires that the kinetic matrix for the propagating degrees of freedom is positive-definite. We will compute this matrix and its eigenvalues, deriving algebraic conditions on the model's parameters that guarantee the health of all kinetic terms.
+
+\textbf{Step 3: Tachyon-Free Conditions.} From the quadratic action, we will derive the dispersion relations for all propagating modes (scalar, vector, and tensor). The absence of tachyonic instabilities requires the squared speeds of propagation, $c_s^2$, to be non-negative. We will compute these speeds and establish the parameter space for which $c_s^2 \ge 0$.
+
+\subsection{One-Loop Quantum Stability Analysis}
+
+A key part of this project is to demonstrate that the proposed symmetry prevents the re-emergence of ghost instabilities at the quantum level, a problem noted in arXiv:2004.11655. We will use the background field method.
+
+\textbf{Step 1: One-Loop Effective Action.} We will split each field into a classical background and a quantum fluctuation (e.g., $A_\mu = A_\mu^{cl} + \hat{a}_\mu$). The one-loop effective action, $\Gamma^{(1)}$, is obtained by integrating out the quantum fluctuations at quadratic order. This is formally given by the functional determinant of the operator describing the quadratic fluctuations.
+
+\textbf{Step 2: Analysis of Quantum Corrections.} We will calculate the one-loop corrections to the propagators of the fields. The core of the argument will be to show how our dynamically-coupled disformal-Galileon symmetry acts as a non-renormalization theorem for dangerous higher-derivative kinetic terms. We will apply the symmetry transformations to the quantum fields and show that the Ward identities associated with this symmetry forbid the generation of ghost-inducing operators in the effective action. This will demonstrate that any counter-terms required to renormalize the theory must respect the symmetry, thus preventing ghosts from being radiatively generated.
+
+\subsection{Analysis of Disformal Invariance and UV Behavior}
+
+We will investigate whether the disformal aspect of the symmetry provides a mechanism for UV protection.
+
+\textbf{Step 1: High-Energy Behavior.} We will analyze the equations of motion in the high-energy (UV) limit, corresponding to large values of the scalar field's kinetic terms and derivatives. We will study whether the dynamic nature of the disformal factors $C(\mathcal{L}_i^\phi)$ and $D(\mathcal{L}_j^\phi)$ can screen the interactions or modify the theory's behavior in a way that tames UV divergences.
+
+\textbf{Step 2: Power-Counting Renormalizability.} We will perform a systematic power-counting analysis of the interaction vertices derived from the Lagrangian. This will allow us to classify the theory as renormalizable, super-renormalizable, or non-renormalizable. The primary objective is to determine if the symmetry is powerful enough to render the theory technically natural, meaning that loop corrections are sub-dominant to the tree-level predictions at the energy scales of interest.
+
+\subsection{Compatibility with Observational Constraints}
+
+Finally, we will confront the model with observational data by analyzing its cosmological implications on a Friedmann-Lemaître-Robertson-Walker (FLRW) background.
+
+\textbf{Step 1: Speed of Gravitational Waves.} We will linearize the theory around an FLRW background and derive the quadratic action for tensor perturbations, $h_{ij}$. From this, we will extract the propagation speed of gravitational waves, $c_T$. We will impose the stringent observational constraint $c_T^2=1$ and determine the corresponding constraints on the free functions of our symmetric Lagrangian.
+
+\textbf{Step 2: Background Cosmology.} We will derive the modified Friedmann equations governing the expansion history of the universe. By numerically solving these equations, we will identify regions of the parameter space where the model provides a viable dark energy candidate, capable of reproducing the observed late-time cosmic acceleration.
+
+\textbf{Step 3: Growth of Structure.} We will derive the equations for linear scalar perturbations. From these, we will compute the effective gravitational constant $G_{\text{eff}}$ and the gravitational slip parameter $\eta = G_{\text{light}}/G_{\text{matter}}$. We will calculate the predicted growth rate of cosmic structures and compare it with observational data from galaxy surveys and redshift-space distortions to place further constraints on the viable parameter space of the theory.
+\end{METHODS}
+

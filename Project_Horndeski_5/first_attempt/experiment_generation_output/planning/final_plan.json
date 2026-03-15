@@ -1,0 +1,76 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the Generalized Proca Lagrangian as presented in arXiv:2012.10218.",
+                "Summarize the structure of the Lagrangian, including the roles of the vector and scalar fields.",
+                "Construct explicit transformation rules for a dynamically-coupled disformal-Galileon symmetry, detailing how the metric, scalar, and vector fields transform.",
+                "Explain how Galilean symmetry emerges as a special case within this framework.",
+                "Review existing literature on the interplay between disformal invariance and Galilean symmetry to clarify the novelty and theoretical motivation of the proposed transformation rules.",
+                "Discuss the theoretical motivation for expecting such a symmetry to protect against instabilities."
+            ],
+            "sub_task": "Theoretical Framework and Symmetry Construction",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Symbolically expand the Lagrangian to quadratic order in perturbations around Minkowski background.",
+                "Provide detailed intermediate steps in deriving the quadratic Lagrangian, including all assumptions.",
+                "Compute the kinetic matrix for all propagating degrees of freedom (scalar, vector, tensor).",
+                "Verify the consistency of the kinetic matrix’s eigenvalues with known results in simpler limits (e.g., pure Proca, pure Galileon).",
+                "Clearly document all assumptions on perturbative stability.",
+                "Check for the absence of ghosts (positive-definite kinetic terms) and tachyons (non-negative squared speeds).",
+                "Output explicit algebraic conditions for stability at tree level."
+            ],
+            "sub_task": "Symbolic Expansion and Tree-Level Stability Analysis",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Implement the background field method to compute the one-loop effective action.",
+                "Explicitly outline the field splitting (background vs. fluctuation) and clarify the regularization method used.",
+                "Include explicit reference equations that ensure the symmetry prevents the generation of dangerous operators, in light of the issues raised in arXiv:2004.11655.",
+                "Analyze whether the dynamically-coupled disformal-Galileon symmetry forbids the generation of ghostly operators at one-loop.",
+                "Check for the presence or absence of higher-derivative ghost terms in the effective action."
+            ],
+            "sub_task": "One-Loop Quantum Stability and Symmetry Protection",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Analyze the high-energy (UV) limit of the theory, focusing on the role of disformal invariance.",
+                "Perform a step-by-step power-counting analysis to assess renormalizability and technical naturalness.",
+                "Discuss potential counterterms and how the symmetry constrains them.",
+                "Determine if dynamically-coupled disformal invariance is sufficient to protect against UV instabilities."
+            ],
+            "sub_task": "Ultraviolet Behavior and Disformal Invariance",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Linearize the theory on an FLRW background and extract the speed of gravitational waves.",
+                "Specify which observational data sets and constraints (e.g., gravitational wave speed, cosmic microwave background, large-scale structure) will be used.",
+                "Derive and numerically solve the modified Friedmann equations for background cosmology.",
+                "Compute the growth rate of structure and compare with observational data.",
+                "Provide detailed instructions on how numerical solutions will be cross-checked with independent data and describe any assumptions in the modeling of cosmological evolution and structure growth.",
+                "Identify viable parameter regions consistent with all constraints."
+            ],
+            "sub_task": "Observational Constraints Analysis",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Synthesize all computational and analytical results from previous steps.",
+                "Discuss the explicit form and implications of the hidden symmetry, including transformation rules.",
+                "Interpret the stability results at both tree and one-loop levels, referencing the computed conditions and any plots/statistics.",
+                "Evaluate the effectiveness of disformal invariance for UV protection.",
+                "Summarize compatibility with observational constraints, referencing key quantitative findings.",
+                "Discuss the reliability and limitations of the numerical methods used by the engineer.",
+                "Explicitly relate findings to the observational viability of the proposed symmetry.",
+                "Provide a comprehensive, detailed Results section suitable for inclusion in the final paper."
+            ],
+            "sub_task": "Results Synthesis and Interpretation",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

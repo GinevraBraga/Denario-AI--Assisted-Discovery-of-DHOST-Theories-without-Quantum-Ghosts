@@ -1,0 +1,6 @@
+{
+  "image0": {
+    "name": "cosmological_constraints_plot_1_20251017-161128.png",
+    "caption": "Cosmological evolution of the Proca-Scalar model for a specific parameter set. The panels display (top-left) the Hubble parameter $H(z)$ compared to $\\Lambda$CDM, (top-right) density parameters $\\Omega_i(z)$, (bottom-left) dark energy equation of state $w_{DE}(z)$ against $\\Lambda$CDM, and (bottom-right) effective gravitational constant $G_{\\text{eff}}/G_N$ and gravitational slip $\\eta$. While the model's $H(z)$ qualitatively tracks $\\Lambda$CDM and its structure growth parameters are consistent with General Relativity, this specific parameter choice fails to reproduce the observed dark energy density and equation of state, highlighting the necessity for comprehensive parameter space exploration."
+  }
+}
