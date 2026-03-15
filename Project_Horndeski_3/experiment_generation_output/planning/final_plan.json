@@ -1,0 +1,62 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the structure of the general Horndeski Lagrangian and summarize its key features.",
+                "Analyze the infinitesimal disformal transformation and derive the explicit transformation rules for all relevant variables (metric, scalar field, derivatives, curvature tensors).",
+                "Document each derivation step in a clear, structured presentation, compiling the transformation rules into a set of reference equations.",
+                "Derive the necessary and sufficient conditions on the Horndeski functions $G_i(\\phi, X)$ for invariance under disformal transformations.",
+                "Identify the explicit form of the hidden symmetry transformations and relate them to the structure of the Lagrangian.",
+                "Discuss how Galilean symmetry emerges as a special case within this framework."
+            ],
+            "sub_task": "Formal derivation of disformal invariance conditions for the Horndeski Lagrangian",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Modularize the code to handle perturbative expansions around Minkowski and FRW backgrounds in separate routines.",
+                "Develop code to symbolically expand the disformally invariant Horndeski action to quadratic, cubic, and quartic order in perturbations.",
+                "Automate the extraction of kinetic and gradient terms for scalar and tensor modes.",
+                "Set up the Feynman rules for the relevant vertices and propagators in the decoupling limit.",
+                "Include consistency checks by comparing results against known limits (e.g., the Galilean limit).",
+                "Prepare the code infrastructure for one-loop effective action calculations."
+            ],
+            "sub_task": "Implementation of modular symbolic computation pipeline for perturbative expansion and one-loop analysis",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Use the symbolic pipeline to compute the quadratic action and check for the absence of ghosts and gradient instabilities at tree level.",
+                "Calculate the one-loop corrections to the scalar propagator and identify any higher-derivative (ghost-generating) terms.",
+                "Implement intermediate validation stages and verification routines to confirm the expected cancellations when disformal invariance conditions are applied.",
+                "Clearly annotate the code to document how each cancellation is achieved.",
+                "Perform a power-counting analysis to assess UV divergence structure and potential improvements in renormalizability."
+            ],
+            "sub_task": "Explicit computation and validation of tree-level and one-loop stability conditions",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Derive and numerically solve the modified Friedmann equations for the background cosmology of the selected models.",
+                "Compute the speed of gravitational waves ($c_T^2$) and check compatibility with GW170817 constraints.",
+                "Calculate the linear growth of structure and the effective gravitational constant, comparing with observational data (e.g., $f\\sigma_8$, supernovae, BAO).",
+                "Include robust numerical error estimation and cross-checks against independent observational benchmarks.",
+                "Generate plots for $H(z)$, $c_T^2$, $f\\sigma_8(z)$, and other relevant observables, including uncertainty bands where appropriate."
+            ],
+            "sub_task": "Observational viability analysis of disformally invariant subclasses",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Provide a thorough interpretative narrative explicitly linking the analytic derivations and numerical outputs.",
+                "Discuss the explicit mechanisms by which disformal invariance protects against ghosts and UV instabilities, and the emergence of Galilean symmetry as a limiting case.",
+                "Interpret the observational viability of the disformally invariant models, referencing the generated plots and statistics.",
+                "Comment on any limitations or open questions that arise during the analysis.",
+                "Summarize the key findings, including the explicit form of the hidden symmetry, the absence of ghosts at one-loop, and the compatibility with cosmological data.",
+                "Prepare a comprehensive Results section suitable for inclusion in a detailed research paper."
+            ],
+            "sub_task": "Synthesis and interpretation of results",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

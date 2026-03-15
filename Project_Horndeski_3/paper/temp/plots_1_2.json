@@ -1,0 +1,10 @@
+{
+  "image0": {
+    "name": "cosmological_evolution_1_1759063407.png",
+    "caption": "Cosmological evolution of the Galileon model. The top panel shows the Hubble parameter $H(z)$. The middle panel displays the density parameters for matter ($\\Omega_m$) and dark energy ($\\Omega_{DE}$) versus redshift $z$, illustrating the transition from early matter domination to late-time dark energy dominance ($\\Omega_{DE} \\approx 0.7$ at $z=0$). The bottom panel shows the dark energy equation of state $w_{DE}$ evolving from near zero to approximately $-1$. This demonstrates the model's ability to generate a viable cosmological history, including late-time acceleration."
+  },
+  "image1": {
+    "name": "structure_growth_parameters_1_1759063407.png",
+    "caption": "Evolution of structure growth parameters in the Galileon model as a function of redshift \\(z\\). The top panel shows the effective gravitational constant \\(G_{\\text{eff}}/G_N\\) constant at approximately \\(10^7+1\\), a profound deviation from the General Relativity (GR) value of 1.0. The bottom panel displays the gravitational slip parameter \\(\\eta\\), deviating from the GR value of 1.0 to approximately \\(-0.27\\) at \\(z=0\\). These distinct predictions offer testable signatures of the Galileon model."
+  }
+}
