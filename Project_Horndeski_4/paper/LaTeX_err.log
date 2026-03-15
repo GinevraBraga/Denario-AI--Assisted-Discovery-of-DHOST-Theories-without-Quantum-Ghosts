@@ -1,0 +1,13 @@
+LaTeX Compilation Errors Found:
+
+! LaTeX Error: \begin{enumerate} on input line 85 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+...
+
+l.111 \end{document}
+
+? [4] (./Methods.aux)
+
+
