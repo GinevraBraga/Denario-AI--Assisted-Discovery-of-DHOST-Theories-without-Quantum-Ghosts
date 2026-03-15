@@ -1,0 +1,67 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Write out the explicit forms of the symmetry transformations for $\\phi$ and $g_{\\mu\\nu}$.",
+                "Compute the variation $\\delta_\\epsilon \\mathcal{L}_{\\text{eff}}$, focusing on the curvature-squared terms with constant coefficients.",
+                "Carefully verify and decompose the variation of all metric-dependent terms, ensuring each contribution from the Lie derivative is fully included.",
+                "Identify all terms proportional to the gauge parameter $\\epsilon(x)$ and its derivatives.",
+                "Determine whether the action is invariant (i.e., whether the total variation vanishes)."
+            ],
+            "sub_task": "Compute the explicit variation of the quantum-corrected action under the given symmetry transformations, ensuring all metric-dependent and scalar field contributions are fully accounted for.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Interpret the results of the explicit variation.",
+                "Provide a clear discussion of how the breakdown of invariance directly hints at the presence of ghost degrees of freedom.",
+                "Compare the variation results to known invariants and discuss the physical implications in a structured manner.",
+                "Conclude whether the constant-coefficient quantum corrections break the protective symmetry."
+            ],
+            "sub_task": "Analyze the result and determine if the symmetry is broken by the quantum corrections, with a focus on the physical implications.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Replace $\\beta_{\\text{GB}}$ and $\\beta_{W^2}$ with $\\beta_{\\text{GB}}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$ in the action.",
+                "Recompute the variation $\\delta_\\epsilon \\mathcal{L}_{\\text{eff}}$ including the functional dependence.",
+                "Carefully check the consistency of the chain rule application when promoting the coefficients.",
+                "Write out all intermediate steps in the derivation of the partial differential equations for enhanced clarity.",
+                "Derive the system of partial differential equations for $\\beta_{\\text{GB}}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$ required for invariance."
+            ],
+            "sub_task": "Promote the curvature-squared coefficients to functions of $\\phi$ and $X$, and derive the symmetry restoration conditions, ensuring clarity and consistency.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Analyze and solve the system of equations for $\\beta_{\\text{GB}}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$.",
+                "Check for uniqueness and non-triviality of the solution.",
+                "Provide a discussion on the parameter space where the fine-tuning is minimal, including a brief analysis of limiting cases to stress the dependence on classical action parameters.",
+                "Express the solutions in terms of the classical action parameters."
+            ],
+            "sub_task": "Solve the symmetry restoration equations for the functional form of the couplings, and analyze the parameter space.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Carry out the ADM decomposition of the metric and scalar field, detailing and commenting on each step.",
+                "Identify canonical variables and compute the Hamiltonian.",
+                "Analyze the constraint structure to confirm the absence of Ostrogradsky ghosts.",
+                "Include a summary table that maps out the constraints and their roles in eliminating ghost degrees of freedom."
+            ],
+            "sub_task": "Perform a Hamiltonian analysis to confirm ghost-freedom of the symmetric action, with detailed commentary and summary.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Summarize the explicit symmetry breaking by constant-coefficient quantum corrections.",
+                "Present the derived conditions and solutions for symmetry restoration, referencing key equations and results from previous steps.",
+                "Discuss the uniqueness and fine-tuning of the required couplings, including insights from the parameter space analysis.",
+                "Report the outcome of the Hamiltonian analysis and implications for ghost-freedom, referencing the summary table and constraint analysis.",
+                "Provide a clear summary of the physical insights gained from the symmetry restoration process and its impact on the ghost-free structure of the theory."
+            ],
+            "sub_task": "Write the full Results section of the paper/report, integrating references and physical insights.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

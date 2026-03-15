@@ -1,0 +1,13 @@
+\begin{IDEA}
+**Title:** The Symmetry Principle for Quantum Corrections: A Ghost-Free Scalar-Tensor EFT
+
+**Abstract:**
+
+Scalar-tensor theories, such as DHOST, rely on protective gauge symmetries to eliminate Ostrogradsky ghost instabilities at the classical level. A fundamental open question is whether these theories can be consistently extended to an Effective Field Theory (EFT) framework, as standard quantum corrections—like the Gauss-Bonnet and Weyl-squared terms with constant coefficients—explicitly break the protective symmetry, threatening to reintroduce the ghost.
+
+This paper proposes and implements the "Symmetry Restoration Principle" as a novel criterion for constructing viable gravitational EFTs. The principle asserts that the couplings of higher-derivative operators are not fundamental constants but must instead be promoted to specific functions of the scalar field and its kinetic term, $\beta(\phi, X)$. Their functional form is uniquely dictated by the requirement that the full quantum-corrected action remains invariant under the original protective symmetry.
+
+We apply this principle to the specific action provided, which includes Gauss-Bonnet and Weyl-squared terms. First, we explicitly show how constant coefficients $\beta_{\text{GB}}$ and $\beta_{W^2}$ violate the symmetry. Then, by promoting them to functions $\beta_{\text{GB}}(\phi, X)$ and $\beta_{W^2}(\phi, X)$, we derive the set of linear partial differential equations they must satisfy for the symmetry to be restored. We solve this system and find a unique, non-trivial solution that intrinsically links the form of the quantum corrections to the functions defining the classical theory.
+
+The crucial step is to verify if this restored symmetry provides genuine protection. We perform a targeted Hamiltonian analysis on this specific, symmetrized EFT. We demonstrate explicitly that the conditions imposed by the symmetry are precisely the ones required to enforce a degeneracy in the kinetic matrix, which eliminates the dangerous kinetic term for the would-be ghost. This confirms the ghost is successfully removed. Our result provides the first concrete, bottom-up construction of a ghost-free, quantum-corrected scalar-tensor theory and establishes a powerful guiding principle for building consistent EFTs of gravity.
+</IDEA>

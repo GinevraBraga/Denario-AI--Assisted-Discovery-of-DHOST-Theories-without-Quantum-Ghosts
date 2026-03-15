@@ -1,0 +1,767 @@
+
+==== ERROR on iteration Final Pass 1 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v3_citations.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(./paper_v3_citations.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (./paper_v3_citations.out) (./paper_v3_citations.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+
+Package natbib Warning: Citation `molaee2021hamiltonianformalismghostfree' on p
+age 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `escalante2024hamiltoniananalysisperturbativel
+ambda' on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `molaee2021hamiltonianformalismghostfree' on p
+age 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `gomes2024pathologicalcharactermodificationsco
+incident' on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `molaee2021hamiltonianformalismghostfree' on p
+age 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `escalante2024hamiltoniananalysisperturbativel
+ambda' on page 1 undefined on input line 26.
+
+[1]
+
+Package natbib Warning: Citation `achour2020rotatingblackholesdhost' on page 2 
+undefined on input line 30.
+
+
+Package natbib Warning: Citation `eichhorn2025purelymetrichorndeskitheories' on
+ page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `eichhorn2025purelymetrichorndeskitheories' on
+ page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `eichhorn2025purelymetrichorndeskitheories' on
+ page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `cheung2017positivitycurvaturesquaredcorrectio
+nsgravity' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `cheung2017positivitycurvaturesquaredcorrectio
+nsgravity' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `calmet2017gravitationaleffectiveactionsecond'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `ilyas2020dhostbounce' on page 2 undefined on 
+input line 30.
+
+
+Package natbib Warning: Citation `colléaux2024classificationgeneralisedhigheror
+dereinsteinmaxwell' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `fabbri2025polarformdiracfields' on page 2 und
+efined on input line 30.
+
+
+Package natbib Warning: Citation `fabbri2025polarformdiracfields' on page 2 und
+efined on input line 30.
+
+
+Package natbib Warning: Citation `wetterich2024fieldtransformationsfunctionalin
+tegral' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gattus2024supergeometricquantumeffectiveactio
+n' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `wetterich2024fieldtransformationsfunctionalin
+tegral' on page 2 undefined on input line 30.
+
+[2]
+
+Package natbib Warning: Citation `millano2023globaldynamicseinsteingaussbonnets
+calar' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gracia1995gaugetransformationshigherorderlagr
+angians' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `accornero2021symmetrytransformationsextremals
+higher' on page 3 undefined on input line 30.
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 30--30
+\TU/lmr/m/n/10 We then re-evaluate the variation of this action,
+
+Package natbib Warning: Citation `arık2025exteriorcalculusquadraticgravity' on 
+page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `arık2025exteriorcalculusquadraticgravity' on 
+page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `derham2014couplingsmattermassivebigravity' on
+ page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `kimura2016nonlocaln1supersymmetry' on page 3 
+undefined on input line 30.
+
+
+Package natbib Warning: Citation `marzo2024mageftradiativestability' on page 3 
+undefined on input line 30.
+
+
+Package natbib Warning: Citation `heisenberg2026asymptoticsafetygeneralizedproc
+a' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `milani2025nonsingularbouncingcosmologyfrgtqui
+ntom' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `heisenberg2026nonrenormalizationtheoremlocalf
+unctionals' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `milani2025nonsingularbouncingcosmologyfrgtqui
+ntom' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `corichi2023introductionadmformalism' on page 
+3 undefined on input line 30.
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Spacetime Foliation: \TU/lmr/m/n/10 We decompose the
+
+Underfull \hbox (badness 3861) in paragraph at lines 30--30
+\TU/lmr/m/n/10 4-dimensional spacetime into a stack of 3-
+
+Underfull \hbox (badness 1067) in paragraph at lines 30--30
+\TU/lmr/m/n/10 dimensional space-like hypersurfaces. The 4-
+
+Underfull \hbox (badness 1521) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Canonical Variables and Momenta: \TU/lmr/m/n/10 We
+[3] [4]
+Overfull \hbox (14.02696pt too wide) in paragraph at lines 91--103
+ []$ 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 106.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 106.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[6] (./paper_v3_citations.bbl
+./paper_v3_citations.bbl:79: Undefined control sequence.
+l.79 ...ogical Strong Coupling and Ghosts in $f(\Q
+                                                  )$ Theories.
+[7]) [8]
+
+Package natbib Warning: There were undefined citations.
+
+(./paper_v3_citations.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v3_citations.pdf (8 pages).
+Transcript written on paper_v3_citations.log.
+---- STDERR ----
+
+==== ERROR on iteration Final Pass 2 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v3_citations.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(./paper_v3_citations.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (./paper_v3_citations.out) (./paper_v3_citations.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+[1]
+
+Package natbib Warning: Multiple citation on page 2: same authors and year
+(natbib)                without distinguishing extra letter,
+(natbib)                appears as question mark.
+
+[2]
+Underfull \hbox (badness 2042) in paragraph at lines 30--30
+\TU/lmr/m/n/10 We then re-evaluate the variation of this action,
+
+Underfull \hbox (badness 3989) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Spacetime Foliation: \TU/lmr/m/n/10 We decompose the
+
+Underfull \hbox (badness 3861) in paragraph at lines 30--30
+\TU/lmr/m/n/10 4-dimensional spacetime into a stack of 3-
+
+Underfull \hbox (badness 1067) in paragraph at lines 30--30
+\TU/lmr/m/n/10 dimensional space-like hypersurfaces. The 4-
+[3]
+Underfull \hbox (badness 1521) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Canonical Variables and Momenta: \TU/lmr/m/n/10 We
+[4] [5]
+Overfull \hbox (14.02696pt too wide) in paragraph at lines 91--103
+ []$ 
+[6] (./paper_v3_citations.bbl
+./paper_v3_citations.bbl:79: Undefined control sequence.
+l.79 ...ogical Strong Coupling and Ghosts in $f(\Q
+                                                  )$ Theories.
+[7]) [8] (./paper_v3_citations.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v3_citations.pdf (8 pages).
+Transcript written on paper_v3_citations.log.
+---- STDERR ----
+
+==== ERROR on iteration Final Pass 1 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v4_final.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(./paper_v4_final.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (./paper_v4_final.out) (./paper_v4_final.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+[1]
+
+Package natbib Warning: Citation `molaee2021hamiltonianformalismghostfree' on p
+age 2 undefined on input line 34.
+
+
+Package natbib Warning: Citation `escalante2024hamiltoniananalysisperturbativel
+ambda' on page 2 undefined on input line 34.
+
+
+Package natbib Warning: Citation `molaee2021hamiltonianformalismghostfree' on p
+age 2 undefined on input line 34.
+
+
+Package natbib Warning: Citation `gomes2024pathologicalcharactermodificationsco
+incident' on page 2 undefined on input line 34.
+
+
+Package natbib Warning: Citation `molaee2021hamiltonianformalismghostfree' on p
+age 2 undefined on input line 34.
+
+
+Package natbib Warning: Citation `escalante2024hamiltoniananalysisperturbativel
+ambda' on page 2 undefined on input line 34.
+
+
+Package natbib Warning: Citation `achour2020rotatingblackholesdhost' on page 2 
+undefined on input line 43.
+
+
+Package natbib Warning: Citation `eichhorn2025purelymetrichorndeskitheories' on
+ page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `eichhorn2025purelymetrichorndeskitheories' on
+ page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `eichhorn2025purelymetrichorndeskitheories' on
+ page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `cheung2017positivitycurvaturesquaredcorrectio
+nsgravity' on page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `cheung2017positivitycurvaturesquaredcorrectio
+nsgravity' on page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `calmet2017gravitationaleffectiveactionsecond'
+ on page 2 undefined on input line 43.
+
+
+Package natbib Warning: Citation `ilyas2020dhostbounce' on page 2 undefined on 
+input line 47.
+
+
+Package natbib Warning: Citation `colléaux2024classificationgeneralisedhigheror
+dereinsteinmaxwell' on page 2 undefined on input line 47.
+
+[2]
+
+Package natbib Warning: Citation `fabbri2025polarformdiracfields' on page 3 und
+efined on input line 57.
+
+
+Package natbib Warning: Citation `fabbri2025polarformdiracfields' on page 3 und
+efined on input line 57.
+
+
+Package natbib Warning: Citation `wetterich2024fieldtransformationsfunctionalin
+tegral' on page 3 undefined on input line 59.
+
+
+Package natbib Warning: Citation `gattus2024supergeometricquantumeffectiveactio
+n' on page 3 undefined on input line 59.
+
+
+Package natbib Warning: Citation `wetterich2024fieldtransformationsfunctionalin
+tegral' on page 3 undefined on input line 59.
+
+
+Package natbib Warning: Citation `millano2023globaldynamicseinsteingaussbonnets
+calar' on page 3 undefined on input line 66.
+
+
+Package natbib Warning: Citation `gracia1995gaugetransformationshigherorderlagr
+angians' on page 3 undefined on input line 70.
+
+
+Package natbib Warning: Citation `accornero2021symmetrytransformationsextremals
+higher' on page 3 undefined on input line 70.
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 69--71
+\TU/lmr/m/n/10 We then re-evaluate the variation of this action,
+
+Package natbib Warning: Citation `arık2025exteriorcalculusquadraticgravity' on 
+page 3 undefined on input line 78.
+
+
+Package natbib Warning: Citation `arık2025exteriorcalculusquadraticgravity' on 
+page 3 undefined on input line 78.
+
+
+Package natbib Warning: Citation `derham2014couplingsmattermassivebigravity' on
+ page 3 undefined on input line 88.
+
+
+Package natbib Warning: Citation `kimura2016nonlocaln1supersymmetry' on page 3 
+undefined on input line 88.
+
+
+Package natbib Warning: Citation `marzo2024mageftradiativestability' on page 3 
+undefined on input line 88.
+
+
+Package natbib Warning: Citation `heisenberg2026asymptoticsafetygeneralizedproc
+a' on page 3 undefined on input line 88.
+
+
+Package natbib Warning: Citation `milani2025nonsingularbouncingcosmologyfrgtqui
+ntom' on page 3 undefined on input line 88.
+
+
+Package natbib Warning: Citation `heisenberg2026nonrenormalizationtheoremlocalf
+unctionals' on page 3 undefined on input line 88.
+
+
+Package natbib Warning: Citation `milani2025nonsingularbouncingcosmologyfrgtqui
+ntom' on page 3 undefined on input line 88.
+
+
+Package natbib Warning: Citation `corichi2023introductionadmformalism' on page 
+3 undefined on input line 90.
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 92--93
+[]\TU/lmr/bx/n/10 Spacetime Foliation: \TU/lmr/m/n/10 We decompose the
+
+Underfull \hbox (badness 3861) in paragraph at lines 92--93
+\TU/lmr/m/n/10 4-dimensional spacetime into a stack of 3-
+
+Underfull \hbox (badness 1067) in paragraph at lines 92--93
+\TU/lmr/m/n/10 dimensional space-like hypersurfaces. The 4-
+[3]
+Underfull \hbox (badness 1521) in paragraph at lines 93--94
+[]\TU/lmr/bx/n/10 Canonical Variables and Momenta: \TU/lmr/m/n/10 We
+[4] [5]
+Overfull \hbox (14.02696pt too wide) in paragraph at lines 160--172
+ []$ 
+[6] (./paper_v4_final.bbl
+./paper_v4_final.bbl:79: Undefined control sequence.
+l.79 ...ogical Strong Coupling and Ghosts in $f(\Q
+                                                  )$ Theories.
+[7]) [8]
+
+Package natbib Warning: There were undefined citations.
+
+(./paper_v4_final.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v4_final.pdf (8 pages).
+Transcript written on paper_v4_final.log.
+---- STDERR ----
+
+==== ERROR on iteration Final Pass 2 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v4_final.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(./paper_v4_final.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (./paper_v4_final.out) (./paper_v4_final.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+[1]
+
+Package natbib Warning: Multiple citation on page 2: same authors and year
+(natbib)                without distinguishing extra letter,
+(natbib)                appears as question mark.
+
+[2]
+Underfull \hbox (badness 2042) in paragraph at lines 69--71
+\TU/lmr/m/n/10 We then re-evaluate the variation of this action,
+[3]
+Underfull \hbox (badness 3989) in paragraph at lines 92--93
+[]\TU/lmr/bx/n/10 Spacetime Foliation: \TU/lmr/m/n/10 We decompose the
+
+Underfull \hbox (badness 3861) in paragraph at lines 92--93
+\TU/lmr/m/n/10 4-dimensional spacetime into a stack of 3-
+
+Underfull \hbox (badness 1067) in paragraph at lines 92--93
+\TU/lmr/m/n/10 dimensional space-like hypersurfaces. The 4-
+
+Underfull \hbox (badness 1521) in paragraph at lines 93--94
+[]\TU/lmr/bx/n/10 Canonical Variables and Momenta: \TU/lmr/m/n/10 We
+[4] [5]
+Overfull \hbox (14.02696pt too wide) in paragraph at lines 160--172
+ []$ 
+[6] (./paper_v4_final.bbl
+./paper_v4_final.bbl:79: Undefined control sequence.
+l.79 ...ogical Strong Coupling and Ghosts in $f(\Q
+                                                  )$ Theories.
+[7]) [8] (./paper_v4_final.aux) )
+(see the transcript file for additional information)
+Output written on paper_v4_final.pdf (8 pages).
+Transcript written on paper_v4_final.log.
+---- STDERR ----
