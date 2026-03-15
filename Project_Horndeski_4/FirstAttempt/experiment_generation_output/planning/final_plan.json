@@ -1,0 +1,76 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the structure of the Horndeski Lagrangian and summarize its key terms and variables.",
+                "Explicitly define the disformal transformation and the generalized Galilean symmetry (GGS) for the scalar field.",
+                "Review and cite previous works’ definitions of the disformal and Galilean transformations to ensure consistency.",
+                "Clearly state all assumptions made during the derivation process.",
+                "Derive how the metric, scalar field, and their derivatives transform under these symmetries.",
+                "Formulate the invariance conditions for the Horndeski action under both transformations.",
+                "Discuss the theoretical motivation for seeking simultaneous invariance and the connection to known stable subclasses."
+            ],
+            "sub_task": "Formal derivation of symmetry transformations and invariance conditions for the Horndeski Lagrangian",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Implement symbolic calculations to apply the GGS and disformal transformations to the Horndeski Lagrangian.",
+                "Derive the system of equations that the Horndeski functions $G_i(\\phi, X)$ must satisfy for simultaneous invariance.",
+                "Solve the system to obtain explicit forms for the $G_i$ functions and the symmetry parameters.",
+                "Document any potential mathematical subtleties encountered (e.g., singular points, boundary conditions).",
+                "Explicitly check for consistency with known limiting cases (such as standard Galileon or purely disformal-invariant cases).",
+                "Output the resulting subclass of Horndeski theories with Disformal-Generalized Galilean Co-invariance."
+            ],
+            "sub_task": "Algebraic and differential computation of the co-invariant subclass of Horndeski theories",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Expand the action to quadratic order in cosmological perturbations (scalar and tensor modes) on an FLRW background.",
+                "Provide a detailed procedure for gauge-fixing and mode decomposition, ensuring clear separation of scalar and tensor sectors.",
+                "Derive the kinetic and gradient coefficients for both scalar and tensor sectors.",
+                "Cross-check the derived coefficients with established criteria from the literature.",
+                "Check the no-ghost and no-tachyon conditions for the derived $G_i$ functions.",
+                "Document the explicit parameter ranges where stability is guaranteed."
+            ],
+            "sub_task": "Classical stability analysis of the derived subclass",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Expand the action to cubic order to identify interaction vertices.",
+                "Carefully outline the criteria used for the one-loop non-renormalization arguments from arXiv:2004.11655.",
+                "Explicitly verify that symmetry constraints are sufficient to cancel dangerous loop contributions.",
+                "Note any assumptions about the regularization or renormalization scheme used in the analysis.",
+                "Summarize the algebraic relations that ensure quantum stability."
+            ],
+            "sub_task": "One-loop quantum stability and non-renormalization analysis",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Clearly specify the observational datasets or constraints being considered (e.g., current limits on the speed of gravitational waves, dark energy equation of state, and growth rate of cosmic structures).",
+                "Analyze the speed of gravitational waves and impose $c_T = 1$ if required.",
+                "Solve the background cosmological equations for the derived subclass.",
+                "Compute the effective dark energy equation of state and the growth of structure.",
+                "Compare the results with current observational constraints and identify viable parameter space."
+            ],
+            "sub_task": "Observational viability and cosmological constraints",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Structure the Results section with clear subsections: “Transformation Laws,” “Stability Analysis,” “Quantum Corrections,” and “Observational Constraints.”",
+                "Synthesize all qualitative and quantitative results from previous steps.",
+                "Interpret the significance of the Disformal-Generalized Galilean Co-invariance for stability and UV protection.",
+                "Discuss the explicit transformation laws and why Galilean symmetry is a special case.",
+                "Summarize the compatibility with observational data and the implications for model building.",
+                "Include discussion of potential limitations or open questions arising from the analysis to guide future work or model refinements.",
+                "Prepare a comprehensive Results section suitable for inclusion in a research paper."
+            ],
+            "sub_task": "Results synthesis and interpretation",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
