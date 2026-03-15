@@ -1,0 +1,60 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Compute the variations of the scalar field, metric, inverse metric, scalar field gradient, and kinetic term $X$ under the given symmetry transformations.",
+                "Derive the variations of the Christoffel symbols, Riemann tensor, Ricci tensor, Ricci scalar, Einstein tensor, and Weyl tensor under the metric transformation.",
+                "Compute the variations of the covariant derivatives of the scalar field, including $\\phi_{\\mu\\nu}$ and $\\Box\\phi$.",
+                "For each transformation rule, explicitly verify the result using known identities (e.g., Bianchi identities, integration-by-parts properties) to capture any implicit cancellations.",
+                "Organize all derivations and results in a clear, step-by-step reference table for use in subsequent calculations."
+            ],
+            "sub_task": "Derive and compile the explicit transformation rules for all fundamental quantities in the Lagrangian, with verification and clear tabulation",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Use the transformation rules from Step 1 to calculate the variation of each term in $\\mathcal{L}_{\\text{eff}}$.",
+                "Carefully apply the product rule and chain rule for terms with field-dependent coefficients ($A_4$, $A_5$).",
+                "Explicitly track and annotate the derivative order of the gauge parameter $\\epsilon(x)$ in all intermediate results.",
+                "Express all variations in terms of $\\epsilon(x)$, its derivatives, and the unknown functions $\\Lambda(\\phi, X)$ and $\\alpha(\\phi, X)$.",
+                "Document all intermediate expressions, with clear annotation of the derivative structure, for later assembly."
+            ],
+            "sub_task": "Compute the variation of each term in the effective Lagrangian under the symmetry transformations, with explicit tracking of derivative orders",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Sum the variations of all Lagrangian terms to obtain the total variation $\\delta_\\epsilon \\mathcal{S}_{\\text{eff}}$.",
+                "Group terms by powers of $\\epsilon(x)$ and its derivatives.",
+                "Perform integration by parts to factor out a common $\\epsilon(x)$, collecting coefficients into $\\mathcal{A}$, $\\mathcal{B}^\\mu$, $\\mathcal{C}^{\\mu\\nu}$, etc.",
+                "Explicitly highlight and annotate any total derivative or boundary terms that emerge from the integration by parts.",
+                "Prepare the final expression for the symmetry condition, with clear separation of bulk and boundary contributions."
+            ],
+            "sub_task": "Assemble and simplify the total variation of the action, highlighting total derivatives and boundary terms",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Set the coefficient of $\\epsilon(x)$ in the total variation to zero to obtain the symmetry condition.",
+                "Provide a detailed discussion of the cancellations across different derivative orders of $\\epsilon(x)$ (e.g., zeroth, first, second).",
+                "Analyze the resulting equation for possible solutions for $\\Lambda$ and $\\alpha$.",
+                "Identify any terms that cannot be canceled, indicating symmetry breaking.",
+                "Document the explicit form of the symmetry condition, the structure of cancellations, and any breaking terms."
+            ],
+            "sub_task": "Analyze the symmetry condition, discuss cancellations by derivative order, and determine constraints on $\\Lambda(\\phi, X)$ and $\\alpha(\\phi, X)$",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Summarize the methodology and key computational steps.",
+                "Present the explicit results for the variation of the action and the symmetry condition, referencing the structure of cancellations and boundary terms.",
+                "Discuss whether the action is invariant under the proposed symmetry, and under what conditions (if any) on $\\Lambda$ and $\\alpha$.",
+                "Interpret the physical significance of the results, including the role of the quantum-corrected terms and the structure of $A_4$ and $A_5$.",
+                "Highlight any symmetry-breaking terms and their implications for the theory.",
+                "Provide a clear conclusion on the validity of the conjectured symmetry for the given action."
+            ],
+            "sub_task": "Write the full Results section, including all findings, interpretations, and implications",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

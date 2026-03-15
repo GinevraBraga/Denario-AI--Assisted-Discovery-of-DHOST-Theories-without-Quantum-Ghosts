@@ -1,0 +1,778 @@
+
+==== ERROR on iteration Pass 1 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v3_citations.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+No file paper_v3_citations.aux.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+
+./paper_v3_citations.tex:26: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...lev2024objectiveratescovariantderivatives}
+                                                  \end{equation}where $\math...
+
+
+Package natbib Warning: Citation `popławski2024classicalphysicsspacetimefields'
+ on page 1 undefined on input line 26.
+
+
+./paper_v3_citations.tex:26: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...lev2024objectiveratescovariantderivatives}
+                                                  \end{equation}where $\math...
+
+
+Package natbib Warning: Citation `kolev2024objectiveratescovariantderivatives' 
+on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `gao2019higherderivativescalartensortheory' on
+ page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `apostolopoulos2023constructingfamilyconformal
+lyflat' on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `langlois2018degeneratehigherorderscalartensor
+dhost' on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `babichev2023rotatingblackholesembedded' on pa
+ge 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `brax2025primordialgravitationalwavesdhost' on
+ page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `cisterna2025thermodynamicsfourdimensionalregu
+larblack' on page 1 undefined on input line 26.
+
+[1]
+
+Package natbib Warning: Citation `nezhad2025degeneratehigherorderscalartensorth
+eories' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `lambiase2025exorcisingghostsgravitationalwave
+s' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...akadera2025sphericalcollapsedhosttheories}
+                                                  \end{equation}The classica...
+
+
+Package natbib Warning: Citation `kobayashi2024weakfieldregimescalartensortheor
+ies' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...akadera2025sphericalcollapsedhosttheories}
+                                                  \end{equation}The classica...
+
+
+Package natbib Warning: Citation `takadera2025sphericalcollapsedhosttheories' o
+n page 2 undefined on input line 30.
+
+
+Overfull \hbox (13.34816pt too wide) detected at line 30
+\OMS/cmsy/m/n/10 S[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 d[]x[] \OMS/cmsy/m/n
+/10 L[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 d[]x[] [] :\OT1/cmr/m/n/10 ([][])
+
+
+Package natbib Warning: Citation `cheung2017positivitycurvaturesquaredcorrectio
+nsgravity' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `sucu2025quantumcorrectedthermodynamicsconform
+alweyl' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `jarv2015transformationpropertiesgeneralrelati
+vity' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `babichev2024generalisationconformaldisformalt
+ransformationsmetric' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `kupferman2023ellipticprecomplexeshodgelikedec
+ompositions' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `popławski2024classicalphysicsspacetimefields'
+ on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `kupferman2023ellipticprecomplexeshodgelikedec
+ompositions' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `popławski2024classicalphysicsspacetimefields'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `matsyuk2017inversevariationalproblemsymmetry'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `lyakhovich2025gaugesymmetrypartiallylagrangia
+n' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `lyakhovich2025gaugesymmetrypartiallylagrangia
+n' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `delcastillo2017symmetriesequationsmotionshare
+d' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `koay2025generatingparticlephysicslagrangians'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `wagner2021demystifyinglagrangiansspecialrelat
+ivity' on page 2 undefined on input line 30.
+
+[2]
+Underfull \hbox (badness 1112) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Inverse metric: $\OML/cmm/m/it/10 ^^N[]g[] \OT1/cmr/m/n/10 = 
+\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 g[]g[]^^N[]g[] \OT1/cmr/m/n/10 =
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Metric determinant: $\OML/cmm/m/it/10 ^^N[][] \OT1/cmr/m/n/10
+ =
+
+Package natbib Warning: Citation `yuan2013modifiedvariationalprinciplegravity' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bombacigno2025gravitationalwavespalatinigravi
+ty' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bombacigno2025gravitationalwavespalatinigravi
+ty' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `minamitsuji2021generalizeddisformalinvariance
+cosmological' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `minamitsuji2021generalizeddisformalinvariance
+cosmological' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `rosa2024junctionconditionsgravitytheories' on
+ page 3 undefined on input line 30.
+
+
+Overfull \hbox (78.4303pt too wide) detected at line 30
+\OML/cmm/m/it/10 ^^N[]^^^[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^N[]\OT1/cmr/m/
+n/10 (\OMS/cmsy/m/n/10 r[]r[]\OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 ) = \OMS/cmsy/
+m/n/10 r[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n
+/10 r[]\OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 ^^N[]\OT1/cmr/m/n/10 ^^@[])\OML/cmm/m/it/10 ^^^[] \OT1/cm
+r/m/n/10 = \OMS/cmsy/m/n/10 r[]r[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^O\OT1/cmr
+/m/n/10 ^^C) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N[]\OT1/c
+mr/m/n/10 ^^@[])\OML/cmm/m/it/10 ^^^[]:
+
+Package natbib Warning: Citation `manoff2000lagrangianformalismtensorfields' on
+ page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bering2011noetherstheoremfixedregion' on page
+ 3 undefined on input line 30.
+
+
+Overfull \hbox (1.00925pt too wide) detected at line 30
+[]
+
+Package natbib Warning: Citation `martín2022pytearcatpythontensoralgebra' on pa
+ge 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `chung2023algebraicpropertiesriemannianmanifol
+ds' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `wu1998generalgaugefieldtheory' on page 3 unde
+fined on input line 30.
+
+
+Package natbib Warning: Citation `bering2011noetherstheoremfixedregion' on page
+ 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gieres2022improvementconservedcurrentdensity'
+ on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `peng2025extractingexpressionfieldequations' o
+n page 3 undefined on input line 30.
+
+
+Overfull \hbox (2.53076pt too wide) detected at line 30
+\OML/cmm/m/it/10 ^^N[]\OMS/cmsy/m/n/10 S[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/1
+0 d[]x[] \OMS/cmsy/m/n/10 E\OT1/cmr/m/n/10 [^^C\OML/cmm/m/it/10 ; ^^K\OT1/cmr/m
+/n/10 ; \OML/cmm/m/it/10 ^^^; g[]\OT1/cmr/m/n/10 ] \OML/cmm/m/it/10 ^^O\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + []\OML/cmm/m/it/10 :
+[3]
+
+LaTeX Warning: Reference `eq:dhost_condition' on page 4 undefined on input line
+ 70.
+
+[4] [5]
+No file paper_v3_citations.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[6] (./paper_v3_citations.aux)
+
+Package rerunfilecheck Warning: File `paper_v3_citations.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v3_citations.pdf (6 pages).
+Transcript written on paper_v3_citations.log.
+---- STDERR ----
+
+==== ERROR on iteration Final Pass 1 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v3_citations.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(./paper_v3_citations.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (./paper_v3_citations.out) (./paper_v3_citations.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+
+./paper_v3_citations.tex:26: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...lev2024objectiveratescovariantderivatives}
+                                                  \end{equation}where $\math...
+
+
+Package natbib Warning: Citation `popławski2024classicalphysicsspacetimefields'
+ on page 1 undefined on input line 26.
+
+
+./paper_v3_citations.tex:26: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...lev2024objectiveratescovariantderivatives}
+                                                  \end{equation}where $\math...
+
+
+Package natbib Warning: Citation `kolev2024objectiveratescovariantderivatives' 
+on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `gao2019higherderivativescalartensortheory' on
+ page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `apostolopoulos2023constructingfamilyconformal
+lyflat' on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `langlois2018degeneratehigherorderscalartensor
+dhost' on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `babichev2023rotatingblackholesembedded' on pa
+ge 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `brax2025primordialgravitationalwavesdhost' on
+ page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `cisterna2025thermodynamicsfourdimensionalregu
+larblack' on page 1 undefined on input line 26.
+
+[1]
+
+Package natbib Warning: Citation `nezhad2025degeneratehigherorderscalartensorth
+eories' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `lambiase2025exorcisingghostsgravitationalwave
+s' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...akadera2025sphericalcollapsedhosttheories}
+                                                  \end{equation}The classica...
+
+
+Package natbib Warning: Citation `kobayashi2024weakfieldregimescalartensortheor
+ies' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...akadera2025sphericalcollapsedhosttheories}
+                                                  \end{equation}The classica...
+
+
+Package natbib Warning: Citation `takadera2025sphericalcollapsedhosttheories' o
+n page 2 undefined on input line 30.
+
+
+Overfull \hbox (13.34816pt too wide) detected at line 30
+\OMS/cmsy/m/n/10 S[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 d[]x[] \OMS/cmsy/m/n
+/10 L[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 d[]x[] [] :\OT1/cmr/m/n/10 ([][])
+
+
+Package natbib Warning: Citation `cheung2017positivitycurvaturesquaredcorrectio
+nsgravity' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `sucu2025quantumcorrectedthermodynamicsconform
+alweyl' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `jarv2015transformationpropertiesgeneralrelati
+vity' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `babichev2024generalisationconformaldisformalt
+ransformationsmetric' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `kupferman2023ellipticprecomplexeshodgelikedec
+ompositions' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `popławski2024classicalphysicsspacetimefields'
+ on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `kupferman2023ellipticprecomplexeshodgelikedec
+ompositions' on page 2 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...lassicalphysicsspacetimefields}\end{align}
+                                                  where $\mathcal{L}_{\xi}$ ...
+
+
+Package natbib Warning: Citation `popławski2024classicalphysicsspacetimefields'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `matsyuk2017inversevariationalproblemsymmetry'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `lyakhovich2025gaugesymmetrypartiallylagrangia
+n' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `lyakhovich2025gaugesymmetrypartiallylagrangia
+n' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `delcastillo2017symmetriesequationsmotionshare
+d' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `koay2025generatingparticlephysicslagrangians'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `wagner2021demystifyinglagrangiansspecialrelat
+ivity' on page 2 undefined on input line 30.
+
+[2]
+Underfull \hbox (badness 1112) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Inverse metric: $\OML/cmm/m/it/10 ^^N[]g[] \OT1/cmr/m/n/10 = 
+\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 g[]g[]^^N[]g[] \OT1/cmr/m/n/10 =
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\TU/lmr/bx/n/10 Metric determinant: $\OML/cmm/m/it/10 ^^N[][] \OT1/cmr/m/n/10
+ =
+
+Package natbib Warning: Citation `yuan2013modifiedvariationalprinciplegravity' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bombacigno2025gravitationalwavespalatinigravi
+ty' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bombacigno2025gravitationalwavespalatinigravi
+ty' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `minamitsuji2021generalizeddisformalinvariance
+cosmological' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `minamitsuji2021generalizeddisformalinvariance
+cosmological' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `rosa2024junctionconditionsgravitytheories' on
+ page 3 undefined on input line 30.
+
+
+Overfull \hbox (78.4303pt too wide) detected at line 30
+\OML/cmm/m/it/10 ^^N[]^^^[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^N[]\OT1/cmr/m/
+n/10 (\OMS/cmsy/m/n/10 r[]r[]\OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 ) = \OMS/cmsy/
+m/n/10 r[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N[]\OT1/cmr/m/n/10 (\OMS/cmsy/m/n
+/10 r[]\OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 ^^N[]\OT1/cmr/m/n/10 ^^@[])\OML/cmm/m/it/10 ^^^[] \OT1/cm
+r/m/n/10 = \OMS/cmsy/m/n/10 r[]r[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^O\OT1/cmr
+/m/n/10 ^^C) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^N[]\OT1/c
+mr/m/n/10 ^^@[])\OML/cmm/m/it/10 ^^^[]:
+
+Package natbib Warning: Citation `manoff2000lagrangianformalismtensorfields' on
+ page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bering2011noetherstheoremfixedregion' on page
+ 3 undefined on input line 30.
+
+
+Overfull \hbox (1.00925pt too wide) detected at line 30
+[]
+
+Package natbib Warning: Citation `martín2022pytearcatpythontensoralgebra' on pa
+ge 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `chung2023algebraicpropertiesriemannianmanifol
+ds' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `wu1998generalgaugefieldtheory' on page 3 unde
+fined on input line 30.
+
+
+Package natbib Warning: Citation `bering2011noetherstheoremfixedregion' on page
+ 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gieres2022improvementconservedcurrentdensity'
+ on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `peng2025extractingexpressionfieldequations' o
+n page 3 undefined on input line 30.
+
+
+Overfull \hbox (2.53076pt too wide) detected at line 30
+\OML/cmm/m/it/10 ^^N[]\OMS/cmsy/m/n/10 S[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/1
+0 d[]x[] \OMS/cmsy/m/n/10 E\OT1/cmr/m/n/10 [^^C\OML/cmm/m/it/10 ; ^^K\OT1/cmr/m
+/n/10 ; \OML/cmm/m/it/10 ^^^; g[]\OT1/cmr/m/n/10 ] \OML/cmm/m/it/10 ^^O\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + []\OML/cmm/m/it/10 :
+[3] [4] [5] (./paper_v3_citations.bbl [6]) [7]
+
+Package natbib Warning: There were undefined citations.
+
+(./paper_v3_citations.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v3_citations.pdf (7 pages).
+Transcript written on paper_v3_citations.log.
+---- STDERR ----

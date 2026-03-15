@@ -1,0 +1,8 @@
+**Title: A Direct Test of a Conjectured Local Symmetry in a Quantum-Corrected DHOST Theory**
+
+**Abstract:**
+This paper conducts a rigorous and explicit investigation into a conjectured local symmetry for a specific higher-derivative scalar-tensor theory. The action under consideration includes DHOST-like operators with precisely tuned coupling functions, as well as constant-coefficient Gauss-Bonnet and Weyl-squared terms, which are motivated by quantum corrections. The conjectured symmetry is a field-dependent gauge transformation that mixes the scalar and metric sectors, of the form $\delta_\epsilon \phi = \epsilon(x) \Lambda(\phi, X)$ and $\delta_\epsilon g_{\mu\nu} = \epsilon(x) \mathcal{L}_{\xi} g_{\mu\nu}$ with $\xi^\mu \propto \phi^\mu$.
+
+The central contribution of this work is the direct calculation of the variation of the action under this transformation, without any prior assumptions about its invariance. We systematically compute the transformation of each term in the Lagrangian—the DHOST sector and the curvature-squared sector—to determine precisely which parts of the action, if any, respect the symmetry.
+
+The result of this calculation provides a definitive answer to a foundational question: is the known ghost-free structure of this theory protected by this specific symmetry? We will present the full result, either confirming the invariance and identifying the required forms of $\Lambda$ and $\alpha$, or deriving the explicit symmetry-breaking terms. This work serves as a crucial diagnostic tool, either validating a powerful new principle for constructing viable gravitational theories or demonstrating its limitations, thereby clarifying the relationship between symmetries and degeneracy conditions in modified gravity.
