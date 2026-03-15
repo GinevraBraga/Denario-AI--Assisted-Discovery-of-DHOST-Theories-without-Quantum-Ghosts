@@ -1,0 +1,57 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Clearly define the scope: focus on Type I DHOST theories with massless gravity as described in arXiv:2012.10218.",
+                "Identify the specific instabilities to be addressed (ghosts, tachyons, etc.).",
+                "Formulate hypotheses regarding the existence and nature of hidden symmetries that could protect against these instabilities.",
+                "Specify the observational constraints to be imposed (speed of gravitational waves, cosmological expansion, structure growth).",
+                "Clarify the role of shift symmetry and whether additional candidate hidden symmetry transformations will be considered.",
+                "Explicitly state the working assumptions, including the specific form of the FRW metric to be used.",
+                "Justify why only the chosen instabilities (ghosts, tachyons) are targeted, and outline any limitations arising from these assumptions.",
+                "State the requirement for explicit construction of symmetry transformations and their compatibility with the FRW background."
+            ],
+            "sub_task": "Formulate the precise research questions, hypotheses, and working assumptions for the project",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Outline the procedure for extracting and writing the relevant Lagrangian for Type I DHOST theories in the FRW background.",
+                "Relate the Lagrangian construction to existing literature on DHOST theories, explicitly referencing the forms of coupling functions A₁ to A₅.",
+                "Detail the steps for identifying and constructing candidate hidden symmetries, including explicit variable transformations.",
+                "Describe how the analysis of hidden symmetries will be benchmarked against previous work.",
+                "Detail how variable redefinitions are systematically handled for clarity and reproducibility.",
+                "Describe the approach for analyzing the stability of the theory at the classical level (absence of ghosts/tachyons).",
+                "Specify the method for checking ghost-freedom at the quantum (one-loop) level.",
+                "Plan how to incorporate and test observational constraints within the theoretical framework.",
+                "Include a strategy for addressing the potential reappearance of ghosts under certain symmetries, referencing arXiv:2004.11655."
+            ],
+            "sub_task": "Develop the methodological framework for the analysis",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "List the sequence of calculations: from writing the Lagrangian, identifying symmetries, deriving equations of motion, to perturbative analysis.",
+                "Detail the process for performing stability analysis (Hamiltonian analysis, Ostrogradsky instability checks, etc.).",
+                "For each calculation step, check for consistency with previous literature on Hamiltonian and Ostrogradsky analyses.",
+                "Outline the procedure for one-loop quantum corrections and ghost analysis, ensuring that ghost freedom is verified both through perturbative analysis and by cross-checking derived dispersion relations against observational bounds.",
+                "Describe how to check the compatibility of the theory and symmetries with observational constraints.",
+                "Plan the explicit construction and verification of symmetry transformations in the Lagrangian.",
+                "Document all intermediate steps thoroughly to improve reproducibility."
+            ],
+            "sub_task": "Specify the step-by-step workflow for explicit calculations and analysis",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Synthesize the previous steps into a comprehensive, detailed methodology section suitable for a research paper.",
+                "Ensure the methodology is clear, step-by-step, and includes all necessary details for reproducibility.",
+                "Explicitly state how each aspect of the analysis (classical and quantum stability, symmetry construction, observational constraints) will be addressed.",
+                "Provide a compilation of cross-checks and validation steps at the end of the methodology, detailing how each aspect (classical stability, quantum corrections, observational compatibility) is independently verified and summarized.",
+                "Prepare the methodology for inclusion as \"full_methodology.md\"."
+            ],
+            "sub_task": "Write the full Methodology description",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
