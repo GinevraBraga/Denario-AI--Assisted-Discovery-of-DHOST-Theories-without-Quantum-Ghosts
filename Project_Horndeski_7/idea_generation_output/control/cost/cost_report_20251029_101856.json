@@ -1,0 +1,58 @@
+[
+  {
+    "Agent": "idea hater response formatter",
+    "Cost ($)": 0.018618,
+    "Prompt Tokens": 2945.0,
+    "Completion Tokens": 1591.0,
+    "Total Tokens": 4536.0
+  },
+  {
+    "Agent": "terminator",
+    "Cost ($)": 0.01891,
+    "Prompt Tokens": 9451.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 9452.0
+  },
+  {
+    "Agent": "idea maker response formatter",
+    "Cost ($)": 0.016024,
+    "Prompt Tokens": 2456.0,
+    "Completion Tokens": 1389.0,
+    "Total Tokens": 3845.0
+  },
+  {
+    "Agent": "idea hater",
+    "Cost ($)": 0.088608,
+    "Prompt Tokens": 15006.0,
+    "Completion Tokens": 2906.0,
+    "Total Tokens": 17912.0
+  },
+  {
+    "Agent": "idea saver",
+    "Cost ($)": 0.018482,
+    "Prompt Tokens": 3653.0,
+    "Completion Tokens": 1397.0,
+    "Total Tokens": 5050.0
+  },
+  {
+    "Agent": "control",
+    "Cost ($)": 0.174102,
+    "Prompt Tokens": 81091.0,
+    "Completion Tokens": 1490.0,
+    "Total Tokens": 82581.0
+  },
+  {
+    "Agent": "idea maker",
+    "Cost ($)": 0.17801,
+    "Prompt Tokens": 53124.0,
+    "Completion Tokens": 4520.0,
+    "Total Tokens": 57644.0
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 0.512754,
+    "Prompt Tokens": 167726.0,
+    "Completion Tokens": 13294.0,
+    "Total Tokens": 181020.0
+  }
+]

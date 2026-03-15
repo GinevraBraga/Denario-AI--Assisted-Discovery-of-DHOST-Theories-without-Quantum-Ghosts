@@ -1,0 +1,73 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Provide a detailed justification for the choice of the FRW metric, including its relevance for cosmological applications and symmetry properties.",
+                "Summarize the general form of the Type I DHOST action as in arXiv:2012.10218, focusing on the $G_i(\\phi, X)$ functions.",
+                "Derive the background Friedmann equations for the scalar field and metric in the FRW background.",
+                "Explicitly verify that the background solutions satisfy the massless gravity constraint.",
+                "Clearly highlight why the observational constraint $c_T^2 = 1$ (speed of gravitational waves) is necessary, and derive how it restricts the DHOST functions.",
+                "Outline the degeneracy conditions for ghost-freedom at the classical (tree) level."
+            ],
+            "sub_task": "Establish the theoretical framework and derive background equations for Type I DHOST theories in an FRW metric",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Carefully document each step during the expansion of the DHOST action to quadratic order in scalar and tensor perturbations in the FRW background.",
+                "Provide a clear treatment of integration by parts and the elimination of total derivatives.",
+                "Derive explicit expressions for the kinetic and gradient terms for both scalar and tensor modes.",
+                "Extract and output the algebraic conditions on $G_i$ and their derivatives for (i) $c_T^2=1$ and (ii) the absence of scalar ghosts ($\\mathcal{A}_S=0$).",
+                "Ensure the explicit derivation of the degeneracy conditions (i.e., the expressions for the kinetic coefficients and gradient terms) is unambiguous."
+            ],
+            "sub_task": "Compute the quadratic action for perturbations and derive explicit ghost-free and $c_T^2=1$ conditions",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Expand on the physical interpretation of ghost re-emergence at the one-loop level, referencing arXiv:2004.11655 and related literature.",
+                "Clearly relate the algebraic conditions obtained at tree level to the required symmetry properties for quantum stability.",
+                "Formulate the requirement that the degeneracy condition ($\\mathcal{A}_S=0$) must be stable under radiative corrections.",
+                "Identify the algebraic structure that a symmetry must satisfy to protect against ghost re-emergence at one-loop.",
+                "Summarize the theoretical criteria for a symmetry to be protective at the quantum level."
+            ],
+            "sub_task": "Analyze the stability of the degeneracy condition at one-loop and identify requirements for symmetry protection",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Use a systematic approach—possibly involving computer-algebra tools—to implement a general ansatz for field-dependent transformations (generalized shift/disformal) on $\\phi$ and $g_{\\mu\\nu}$.",
+                "Compute the variation of the DHOST action under these transformations and derive the resulting PDEs for $G_i$, $\\Omega$, and $\\Gamma$.",
+                "Impose the tree-level and one-loop stability conditions from previous steps.",
+                "Solve and classify the allowed forms of $G_i$ and the explicit symmetry transformations that guarantee ghost-freedom at both levels.",
+                "Accompany the classification with a discussion of the underlying algebraic structure that guarantees one-loop ghost-freedom."
+            ],
+            "sub_task": "Systematically derive and classify field-dependent symmetries that protect against ghosts at tree and one-loop level",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Select a representative theory and symmetry from the classified set.",
+                "Perform a background field calculation to compute the one-loop correction to the scalar sector kinetic term, verifying $\\delta\\mathcal{A}_S^{(1L)}=0$.",
+                "Solve the background cosmological equations and check for a viable expansion history.",
+                "Compute linear structure growth observables ($G_{\\text{eff}}$, $\\eta$) and compare with observational constraints.",
+                "Generate detailed plots and provide annotations that contrast the representative theory predictions with observational constraints."
+            ],
+            "sub_task": "Explicitly verify one-loop ghost-freedom and check cosmological/observational viability for a representative theory",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Integrate all previous computations into a comprehensive Results section.",
+                "Present the explicit forms of the protective symmetries and the corresponding $G_i$ functions.",
+                "Show step-by-step calculations demonstrating tree-level and one-loop ghost-freedom.",
+                "Discuss the explicit one-loop calculation and its implications.",
+                "Interpret the cosmological and structure growth results, referencing the generated plots and statistics.",
+                "Ensure the discussion includes clear references to specific plots and quantitative outcomes, with a transparent narrative on how the protective symmetries secure ghost-freedom at both the tree and quantum levels.",
+                "Summarize the main findings and their significance for DHOST theories and cosmology."
+            ],
+            "sub_task": "Write the full Results section, including explicit calculations, symmetry transformations, and phenomenological implications",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

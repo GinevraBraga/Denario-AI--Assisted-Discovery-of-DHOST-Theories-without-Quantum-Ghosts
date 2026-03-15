@@ -1,0 +1,62 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Ideas should be based on the Lagrangian in https://arxiv.org/abs/2012.10218.",
+                "Each idea must explicitly link to observational constraints: speed of gravitational waves, cosmological expansion, and structure growth.",
+                "For each idea, briefly explain which hidden symmetry might address ghost/tachyon issues in an FRW background.",
+                "Consider the impact of symmetries on ghost/tachyon reappearance as discussed in https://arxiv.org/pdf/2004.11655.",
+                "Ideas should be suitable for analysis in an FRW background."
+            ],
+            "sub_task": "Generate 5 new research project ideas related to the analysis of type I DHOST theories with massless gravity, focusing on hidden symmetries and stability (ghost/tachyon avoidance), as well as compatibility with observational constraints.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Evaluate each idea for originality, clarity, and scientific value.",
+                "Clearly identify any potential mathematical or physical inconsistencies arising from the use of the Lagrangian.",
+                "Provide actionable feedback on how these challenges might be overcome.",
+                "Suggest how each idea could be improved or why it should be discarded."
+            ],
+            "sub_task": "Critique the 5 research project ideas, identifying weaknesses, feasibility issues, and suggesting improvements or eliminations.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the 2 most promising ideas, incorporating feedback from idea_hater.",
+                "Refine the ideas to address any weaknesses or gaps.",
+                "Explicitly incorporate any necessary transformations or symmetry-building mechanisms that could be feasibly embedded in the theory.",
+                "Ensure the improved ideas are well-aligned with the original problem statement."
+            ],
+            "sub_task": "Select and improve 2 out of the 5 research project ideas based on the critiques.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Provide a detailed critique of each improved idea.",
+                "Ensure that the improved ideas maintain consistency with both the theoretical constraints (e.g., ghost absence at one-loop level) and the observational constraints.",
+                "Emphasize the strengths in concrete terms.",
+                "Suggest any final improvements or considerations."
+            ],
+            "sub_task": "Critique the 2 improved research project ideas, focusing on their strengths and remaining weaknesses.",
+            "sub_task_agent": "idea_hater"
+        },
+        {
+            "bullet_points": [
+                "Choose the single most promising and feasible research project idea.",
+                "Justify the selection based on critiques and alignment with the problem statement."
+            ],
+            "sub_task": "Select the best idea out of the 2 improved ones.",
+            "sub_task_agent": "idea_maker"
+        },
+        {
+            "bullet_points": [
+                "Create a concise, informative paper title.",
+                "Write a 5-sentence abstract/description summarizing the research project’s goals, methods, and significance.",
+                "Ensure the title and abstract clearly reflect the project’s novelty, feasibility, and relevance to both gravitational theory and cosmological observations."
+            ],
+            "sub_task": "Report the best idea in the form of a scientific paper title with a 5-sentence description.",
+            "sub_task_agent": "idea_maker"
+        }
+    ]
+}
