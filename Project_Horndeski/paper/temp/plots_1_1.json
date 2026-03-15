@@ -1,0 +1,6 @@
+{
+  "image0": {
+    "name": "horndeski_phenomenology_plot_1_20250925-220824.png",
+    "caption": "Cosmological observables for a Quantum Kinetic Structure Preservation (QKSP)-symmetric Horndeski model. Top panel: Dark energy equation of state $w_{DE}(z)$ is fixed at $-1$, consistent with $\\Lambda$CDM. Middle panel: Effective gravitational constant $G_{\\text{eff}}(z)/G_N$ showing time-dependent deviations from General Relativity for varying braiding parameters $c_B$, with gravity enhanced ($c_B > 0$) or suppressed ($c_B < 0$) at low redshifts. Bottom panel: Gravitational slip parameter $\\eta(z)$ remains unity, consistent with General Relativity for models with $G_5=0$. This figure illustrates how the requirement of quantum stability leads to specific, testable modifications in the strength of gravity."
+  }
+}
