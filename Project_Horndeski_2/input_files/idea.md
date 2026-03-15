@@ -1,0 +1,3 @@
+**Quantum Horndeski Condition Protection via BRST-like Symmetries**
+
+This paper proposes the existence of novel, generalized BRST-like symmetries inherent in the Horndeski Lagrangian. These symmetries are shown to explicitly protect the theory's classical ghost-free structure at the quantum level by enforcing the Horndeski conditions on the quantum effective action. We will construct these BRST-like transformations and demonstrate how they lead to Ward identities that forbid the generation of ghost-generating counterterms at the one-loop perturbative level, ensuring quantum ghost-freedom while remaining compatible with observational constraints on gravitational wave speed, cosmological expansion, and structure growth.

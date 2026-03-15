@@ -1,0 +1,60 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the structure of the Horndeski Lagrangian as presented in arXiv:1404.3713.",
+                "Summarize the classical ghost-free and stability conditions for both scalar and tensor modes.",
+                "Identify the algebraic structures in the Lagrangian responsible for the absence of Ostrogradsky ghosts and other instabilities.",
+                "Explicitly identify any implicit or structural constraints in the Horndeski framework that may preclude the appearance of ghost terms, ensuring the classical groundwork is robust for quantum analysis.",
+                "Prepare a concise background section to set the stage for quantum analysis."
+            ],
+            "sub_task": "Classical Analysis of the Horndeski Lagrangian and Ghost-Free Conditions",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Develop the explicit form of the BRST-like symmetry transformations for the Horndeski Lagrangian, including all relevant fields and ghosts.",
+                "Demonstrate how these transformations are linked to the ghost-free structure of the theory.",
+                "Explicitly cross-check the proposed BRST-like symmetry transformations against known symmetries in related scalar-tensor theories, strengthening the theoretical justification for the BRST structure.",
+                "Formulate the associated Ward/Slavnov-Taylor identities.",
+                "Document the theoretical framework for use in subsequent quantum analysis."
+            ],
+            "sub_task": "Construction of BRST-like Symmetry Transformations",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "(a) Implement the background field method and gauge-fixing for the Horndeski Lagrangian, and compute the one-loop effective action and identify all possible local counterterms.",
+                "(b) Systematically test the BRST-invariance of each candidate counterterm, with a clear separation between the computation and the invariance testing.",
+                "Explicitly verify that no ghost-inducing counterterms are generated at one-loop, in accordance with the symmetry constraints.",
+                "Ensure that all findings, key statistics, and intermediate results are clearly documented for hand-off to the researcher."
+            ],
+            "sub_task": "One-Loop Quantum Corrections and Counterterm Structure",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Perturb the quantum-corrected effective action around an FLRW background.",
+                "Calculate the speed of gravitational waves, the modified Friedmann equations, and the evolution of scalar perturbations.",
+                "Quantify the impact of allowed quantum corrections on cosmological observables (e.g., $c_T$, $c_s^2$, $G_{eff}$, $\\gamma$).",
+                "Generate plots and statistics comparing theoretical predictions with current observational bounds.",
+                "For each plot and key result, prepare detailed bullet-point documentation including relevant parameters, methods of computation, and uncertainties.",
+                "Summarize all findings and provide annotated plots and statistics for the researcher."
+            ],
+            "sub_task": "Analysis of Observational Constraints",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Synthesize the findings from the classical, symmetry, quantum, and observational analyses.",
+                "Discuss the effectiveness of the BRST-like symmetry in protecting against ghosts at the quantum level.",
+                "Interpret the quantitative results and plots in the context of observational constraints, referencing the engineer’s documentation.",
+                "Critically discuss any limitations or assumptions from earlier steps that might impact the reliability of the final conclusions, and briefly review potential model dependencies.",
+                "Highlight any remaining theoretical or phenomenological challenges.",
+                "Prepare a comprehensive Results section suitable for inclusion in the final paper, ensuring all relevant information, statistics, and plot references are included."
+            ],
+            "sub_task": "Results Section—Interpretation and Synthesis",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}

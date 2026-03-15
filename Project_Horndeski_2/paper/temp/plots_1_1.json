@@ -1,0 +1,6 @@
+{
+  "image0": {
+    "name": "cosmological_observables_plot_1_20250926-105043.png",
+    "caption": "Impact of BRST-allowed quantum corrections on cosmological observables. The top panel illustrates the deviation of the gravitational wave speed (\\(c_T^2 - 1\\)) from unity as a function of redshift, showing that the GW170817 constraint severely limits the magnitude of the quantum correction coefficient \\(\\alpha_{H4}\\). The bottom panel displays the scalar sound speed squared (\\(c_s^2\\)) versus redshift, demonstrating that these quantum corrections modify but preserve the stability of scalar perturbations by maintaining \\(c_s^2 > 0\\)."
+  }
+}
