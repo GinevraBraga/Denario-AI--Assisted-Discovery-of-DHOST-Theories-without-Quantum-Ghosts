@@ -1,0 +1,72 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Clearly subdivide the calculation into the classical sector ($c_0, c_1, A_4, A_5$) and the quantum sector ($\\beta_{GB}$, $\\beta_{W^2}$).",
+                "Write out the explicit forms of the symmetry transformations for $\\phi$ and $g_{\\mu\\nu}$, including the Lie derivative.",
+                "For the classical sector, compute and separately document the variation results for all terms, with special attention to derivative terms (such as those involving $\\Box\\phi$ and $\\phi_{\\mu\\nu}$).",
+                "For the quantum sector, compute the variation of the curvature-squared terms with constant coefficients.",
+                "Carefully verify and document all boundary contributions, ensuring none are missed or incorrectly discarded.",
+                "Determine whether the total variation vanishes or not, and identify which terms break the symmetry."
+            ],
+            "sub_task": "Explicitly compute the variation of the classical and quantum-corrected action under the specified symmetry transformations.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Replace $\\beta_{GB}$ and $\\beta_{W^2}$ by $\\beta_{GB}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$ in the action.",
+                "Recompute the variation of the quantum correction terms, now including the variations of $\\phi$ and $X$ in the coefficients.",
+                "Perform careful integration by parts where needed to isolate $\\epsilon(x)$ and its derivatives, ensuring all terms are properly accounted for.",
+                "Collect all terms proportional to $\\epsilon(x)$ and its derivatives.",
+                "Derive the set of partial differential equations (PDEs) that $\\beta_{GB}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$ must satisfy for the action to be invariant."
+            ],
+            "sub_task": "Promote $\\beta_{GB}$ and $\\beta_{W^2}$ to functions of $\\phi$ and $X$, and derive the conditions for symmetry invariance.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Explicitly detail the ADM decomposition rules for the metric and scalar field.",
+                "Rewrite the full action in ADM variables, clearly identifying all terms with higher time derivatives.",
+                "Verify that the curvature-squared terms are consistently reformulated in ADM language and that all contributions to the kinetic matrix are included.",
+                "Compute the kinetic matrix (Hessian) for the metric sector, focusing on the contributions from the Weyl-squared and Gauss-Bonnet terms.",
+                "Impose the primary degeneracy condition (vanishing determinant of the kinetic matrix).",
+                "Analyze the secondary constraint by projecting the linear-in-acceleration terms onto the null eigenvector of the kinetic matrix.",
+                "Derive the resulting PDEs for $\\beta_{GB}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$."
+            ],
+            "sub_task": "Perform the Hamiltonian (ADM) analysis to derive the degeneracy (ghost-free) conditions for the generalized action.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Develop a comparative table or annotated list of the PDEs derived from both the symmetry-restoration and degeneracy analyses, highlighting which terms match exactly.",
+                "Cross-check these PDEs with a symbolic manipulation tool to ensure algebraic consistency.",
+                "Document the proof of equivalence in detail."
+            ],
+            "sub_task": "Compare and prove the equivalence of the symmetry and degeneracy conditions.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Perform a dimensional and parametric analysis of the derived PDEs before plotting.",
+                "Visualize the solution space of the PDEs for $\\beta_{GB}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$, ensuring the plots accurately reflect the structure and restrictions of the conditions.",
+                "Provide symbolic checks or plots that demonstrate the equivalence for specific choices of parameters or functional forms.",
+                "Prepare all figures and data for inclusion in the results report."
+            ],
+            "sub_task": "Generate any supporting plots or symbolic checks (if needed) to illustrate the structure of the conditions or the equivalence.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Summarize the explicit symmetry variation calculations and the identification of the breaking terms.",
+                "Present the derived symmetry-restoration and degeneracy (ghost-free) conditions.",
+                "Provide a detailed discussion of the equivalence proof and its implications.",
+                "Include a concise summary table of the key results, with interpretative commentary connecting the findings to the theoretical framework of quantum-corrected scalar-tensor theories.",
+                "Emphasize clarity in explaining how the new functions $\\beta_{GB}(\\phi, X)$ and $\\beta_{W^2}(\\phi, X)$ restore symmetry and ensure ghost freedom in the classical limit.",
+                "Reference and interpret any plots or symbolic checks generated in Step 5.",
+                "Ensure the report is self-contained and suitable for direct use in a paper."
+            ],
+            "sub_task": "Write the full Results section, including all calculations, findings, and interpretations.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
