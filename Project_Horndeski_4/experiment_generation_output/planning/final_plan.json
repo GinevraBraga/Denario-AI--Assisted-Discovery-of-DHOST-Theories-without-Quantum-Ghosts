@@ -1,0 +1,76 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Review the general Horndeski Lagrangian and summarize its structure and degrees of freedom.",
+                "Conduct a thorough review of potential ghost conditions and stability criteria already established in the literature for Horndeski and related scalar-tensor theories.",
+                "Analyze the transformation properties of the Horndeski Lagrangian under disformal transformations, referencing https://arxiv.org/abs/1306.6724.",
+                "Explicitly derive the transformation rules for the metric, scalar field, and relevant geometric quantities.",
+                "Identify and write down the explicit form of the disformal transformation that maps a non-trivial sub-sector of Horndeski theory to a canonical scalar-tensor theory.",
+                "Derive the functional constraints on the Horndeski functions ($G_2, G_3, G_4, G_5$) that define this sub-sector.",
+                "Explicitly highlight parameter regimes where disformal invariance might break down (e.g., at the singular point $C = 2X D_0$) and discuss how these affect the identification of the hidden symmetry.",
+                "Discuss the emergence of Galilean symmetry as a special case within this framework."
+            ],
+            "sub_task": "Theoretical formulation and identification of disformally equivalent Horndeski sub-sector",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Implement symbolic algebra code to apply the explicit disformal transformation to the Horndeski Lagrangian.",
+                "Include diagnostic checks in the code to verify that the transformation avoids singularities (e.g., $C \\neq 2X D_0$) and consistently maps the Horndeski action to the canonical frame.",
+                "Add explicit comments on each intermediate algebraic manipulation to ensure a traceable mapping procedure for the Horndeski functions.",
+                "Compute the transformed action and match terms to the canonical scalar-tensor action in the new frame.",
+                "Solve the resulting system of equations to obtain the explicit forms of the Horndeski functions in the disformally equivalent sub-sector.",
+                "Output the explicit transformation and the resulting $G_i$ functions for further analysis."
+            ],
+            "sub_task": "Algebraic implementation of the disformal transformation and mapping to the target theory",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Set up the FRW background and derive the background equations of motion for the canonical scalar-tensor theory.",
+                "Expand the action to quadratic order in scalar and tensor perturbations.",
+                "Detail the integration process of the non-dynamical degrees of freedom, providing a step-by-step breakdown of how the quadratic terms are isolated.",
+                "Integrate out non-dynamical fields and obtain the quadratic action for the propagating degrees of freedom.",
+                "Compute the kinetic and gradient coefficients, and check for the absence of ghosts and tachyons (i.e., positivity of kinetic and gradient terms).",
+                "Compare the resulting kinetic coefficients against the canonical case as a benchmark for ghost-freedom.",
+                "Document the results and provide explicit expressions for the relevant coefficients."
+            ],
+            "sub_task": "One-loop perturbative stability analysis in the target frame (FRW background)",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Substitute the explicit $G_i$ functions into the expressions for the speed of gravitational waves and effective gravitational constant.",
+                "Check compatibility with GW170817 constraints ($c_T^2 = 1$) and cosmological expansion history.",
+                "Calculate the effective gravitational constant for structure growth and compare with observational bounds.",
+                "Output plots and tables summarizing the allowed parameter space and observational viability.",
+                "Include a detailed error analysis for the effective gravitational constant and the speed of gravitational waves to clarify the allowed parameter space under current cosmological constraints."
+            ],
+            "sub_task": "Observational constraints and phenomenological viability",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Provide a structured discussion on the invertibility of the disformal transformation, referencing both mathematical and physical aspects.",
+                "Explicitly link the argument to non-perturbative stability and established results (such as those in arXiv:2004.11655), ensuring clarity on how the hidden symmetry prevents ghost reappearance across all perturbative orders.",
+                "Discuss the invariance of physical observables under such transformations and the inheritance of quantum stability.",
+                "Synthesize the theoretical and computational results into a coherent narrative."
+            ],
+            "sub_task": "Non-perturbative protection and symmetry argument",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Organize the results section by clearly separating qualitative insights from quantitative findings.",
+                "Cross-reference the results with the plots and tables from previous steps.",
+                "Include a summary of key statistics, ensuring that all numerical and algebraic results reinforce the overall conclusion on the protected disformally equivalent Horndeski sub-sector.",
+                "Interpret the explicit forms of the hidden symmetries and their role in protecting against instabilities.",
+                "Discuss the implications for cosmological phenomenology and observational constraints.",
+                "Provide a comprehensive summary of the findings, highlighting the main insights and their significance for Horndeski theories."
+            ],
+            "sub_task": "Results section write-up",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
