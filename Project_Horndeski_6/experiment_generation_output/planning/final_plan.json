@@ -1,0 +1,65 @@
+{
+    "sub_tasks": [
+        {
+            "bullet_points": [
+                "Use a systematic approach, such as symbolic computation tools, to parse DHOSTS.pdf and extract the explicit form of the action, including all functions of $\\phi$ and $X$.",
+                "Carefully verify the extracted expressions against any subtle notational conventions in DHOSTS.pdf to ensure accuracy, especially for the definitions of $\\phi$, $X$, and the massive graviton potential.",
+                "Document all definitions and prepare the Lagrangian in a format suitable for further algebraic manipulation."
+            ],
+            "sub_task": "Extract and transcribe the full Lagrangian and relevant definitions from DHOSTS.pdf.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Explicitly document all intermediary algebraic manipulations when rewriting the Lagrangian in terms of the canonical DHOST functions ($P, Q, A_1, ..., B_1$) as per arXiv:1608.08135.",
+                "Construct a table mapping each canonical function to its explicit form from DHOSTS.pdf.",
+                "Apply the classification criteria to determine the DHOST class and subclass, and include a verification procedure for the minimal stability conditions (cross-referencing with additional literature if needed).",
+                "Ensure that each canonical function’s derivation is fully traceable."
+            ],
+            "sub_task": "Map the extracted Lagrangian to the canonical DHOST form and classify the theory.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Clearly separate the perturbative expansion into distinct orders (quadratic, cubic, quartic), with well-commented steps.",
+                "Expand the action around Minkowski space, introducing Stueckelberg fields as needed.",
+                "Derive the quadratic, cubic, and quartic terms in the perturbative expansion.",
+                "Identify the kinetic and mixing terms, and extract the leading interaction vertices.",
+                "Estimate the strong coupling scale using EFT power-counting.",
+                "Include consistency checks (e.g., matching with known limits or simpler cases) to build confidence in the expansion and the identification of leading interactions."
+            ],
+            "sub_task": "Expand the action perturbatively and identify the symmetry structure and strong coupling scale.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Provide a detailed explanation of the symmetry properties that protect the theory from ghost instabilities, including comprehensive discussion on the roles of each symmetry (e.g., Galilean or shift symmetries).",
+                "Construct the set of potentially dangerous operators at one-loop and methodically explain why each is suppressed or forbidden by symmetry.",
+                "Clearly state how the introduction of the graviton mass soft-breaks these symmetries without leading to pathological loop corrections."
+            ],
+            "sub_task": "Analyze the role of symmetries and the graviton mass in quantum stability at one-loop.",
+            "sub_task_agent": "researcher"
+        },
+        {
+            "bullet_points": [
+                "Document the intermediate steps of taking the $m_g \\to 0$ limit, including rigorous handling of the Stueckelberg fields decoupling.",
+                "Check for branch bifurcations in the limit and clarify any subtle mathematical structures that emerge.",
+                "Simplify the resulting Lagrangian and identify the remaining degrees of freedom.",
+                "Compare the massless action to known scalar-tensor theories (Horndeski, beyond Horndeski, etc.).",
+                "Investigate if the limit is unique or if multiple branches exist."
+            ],
+            "sub_task": "Take the massless graviton limit and analyze the resulting theory.",
+            "sub_task_agent": "engineer"
+        },
+        {
+            "bullet_points": [
+                "Ensure the Results section synthesizes all analysis into a clear narrative, integrating the stability classification, EFT analysis, and massless limit discussion.",
+                "Explicitly reference quantitative findings (from plots and tables generated earlier) and provide comprehensive interpretations.",
+                "Bridge the computational outputs from the engineer’s steps with the broader theoretical context.",
+                "Provide a comprehensive narrative suitable for inclusion in a research paper."
+            ],
+            "sub_task": "Write the full Results section, synthesizing all findings, tables, and interpretations.",
+            "sub_task_agent": "researcher"
+        }
+    ]
+}
