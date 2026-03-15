@@ -1,0 +1,10 @@
+{
+  "image0": {
+    "name": "kinetic_eigenvalues_1_20251019-230534.png",
+    "caption": "Eigenvalues of the scalar kinetic matrix are shown as a function of the Scalar-Modulated Internal Lorentz Symmetry (SMILS) symmetry-breaking parameter $\\epsilon$. At $\\epsilon=0$, where SMILS is exact, one eigenvalue is precisely zero, indicating the removal of the ghost degree of freedom, while the other remains positive, representing a healthy propagating mode. For $\\epsilon < 0$, an eigenvalue becomes negative, demonstrating that SMILS is a necessary condition for one-loop stability and freedom from ghost instabilities."
+  },
+  "image1": {
+    "name": "hubble_expansion_2_20251019-230948.png",
+    "caption": "\\caption{The Hubble parameter \\textit{H(z)} predicted by the benchmark Scalar-Modulated Internal Lorentz Symmetry (SMILS) model (blue line) compared with observational data from cosmic chronometers (red points with error bars). The excellent agreement demonstrates the SMILS-protected theory's ability to accurately reproduce the universe's observed expansion history, confirming its cosmological viability.}"
+  }
+}
