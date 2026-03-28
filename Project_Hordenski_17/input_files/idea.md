@@ -1,0 +1,10 @@
+**Title:** The Open Algebra of Field-Dependent Symmetries in DHOST Gravity and its Batalin-Vilkovisky Quantization
+
+**Description:**
+This paper pivots from analyzing the quantum corrections of a DHOST theory to investigating the fundamental algebraic structure of its underlying gauge symmetry. We posit that previous approaches, which implicitly assume a standard closed Lie algebra, are fundamentally flawed.
+
+Our first step is to explicitly compute the commutator of the infinitesimal gauge transformations, $[\delta_{\epsilon_1}, \delta_{\epsilon_2}]$. We will demonstrate that this commutator fails to close off-shell, and instead forms an "open" gauge algebra, closing only when the classical equations of motion are used. This result reveals a much richer and more complex structure than previously assumed and invalidates the direct application of standard BRST quantization.
+
+The necessary consequence of an open algebra is that a consistent quantum description requires the Batalin-Vilkovisky (BV) formalism. The core of our work will be to construct the proper BV-extended action for this theory. This involves systematically deriving the non-trivial anti-commutator relations (the "antibrackets") and introducing the necessary hierarchy of ghosts and anti-fields whose interactions are dictated by the open algebra structure.
+
+Our primary objective is to use the resulting quantum master equation, $\{S_{ext}, S_{ext}\} = 0$, as a fundamental consistency condition. We will investigate which higher-order curvature invariants, such as the Gauss-Bonnet and Weyl-squared terms, can be incorporated as one-loop counter-terms into the extended action $S_{ext}$ without violating this master equation. This approach transforms the problem from a brute-force calculation into a powerful algebraic test, where the classical open algebra itself acts as a selection principle on the allowed form of quantum corrections.

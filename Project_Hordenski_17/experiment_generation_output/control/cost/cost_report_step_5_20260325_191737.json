@@ -1,0 +1,44 @@
+[
+  {
+    "Agent": "researcher response formatter",
+    "Cost ($)": 0.0140063,
+    "Prompt Tokens": 2577.0,
+    "Completion Tokens": 2539.0,
+    "Total Tokens": 5116.0
+  },
+  {
+    "Agent": "terminator",
+    "Cost ($)": 0.013484,
+    "Prompt Tokens": 6738.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 6739.0
+  },
+  {
+    "Agent": "control starter",
+    "Cost ($)": 0.005732,
+    "Prompt Tokens": 2862.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 2863.0
+  },
+  {
+    "Agent": "researcher",
+    "Cost ($)": 0.0,
+    "Prompt Tokens": 18540.0,
+    "Completion Tokens": 2218.0,
+    "Total Tokens": 20758.0
+  },
+  {
+    "Agent": "control",
+    "Cost ($)": 0.037708,
+    "Prompt Tokens": 18094.0,
+    "Completion Tokens": 190.0,
+    "Total Tokens": 18284.0
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 0.0709303,
+    "Prompt Tokens": 48811.0,
+    "Completion Tokens": 4949.0,
+    "Total Tokens": 53760.0
+  }
+]

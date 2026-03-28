@@ -1,0 +1,65 @@
+[
+  {
+    "Agent": "reviewer response formatter",
+    "Cost ($)": 0.003242,
+    "Prompt Tokens": 425.0,
+    "Completion Tokens": 299.0,
+    "Total Tokens": 724.0
+  },
+  {
+    "Agent": "plan reviewer",
+    "Cost ($)": 0.0134563,
+    "Prompt Tokens": 9857.0,
+    "Completion Tokens": 594.0,
+    "Total Tokens": 10451.0
+  },
+  {
+    "Agent": "planner response formatter",
+    "Cost ($)": 0.026996,
+    "Prompt Tokens": 3458.0,
+    "Completion Tokens": 2510.0,
+    "Total Tokens": 5968.0
+  },
+  {
+    "Agent": "planner",
+    "Cost ($)": 0.066398,
+    "Prompt Tokens": 22475.0,
+    "Completion Tokens": 2681.0,
+    "Total Tokens": 25156.0
+  },
+  {
+    "Agent": "terminator",
+    "Cost ($)": 0.016826,
+    "Prompt Tokens": 8409.0,
+    "Completion Tokens": 1.0,
+    "Total Tokens": 8410.0
+  },
+  {
+    "Agent": "review recorder",
+    "Cost ($)": 0.003214,
+    "Prompt Tokens": 383.0,
+    "Completion Tokens": 306.0,
+    "Total Tokens": 689.0
+  },
+  {
+    "Agent": "plan recorder",
+    "Cost ($)": 0.03117,
+    "Prompt Tokens": 3653.0,
+    "Completion Tokens": 2983.0,
+    "Total Tokens": 6636.0
+  },
+  {
+    "Agent": "plan setter",
+    "Cost ($)": 0.011952,
+    "Prompt Tokens": 5932.0,
+    "Completion Tokens": 11.0,
+    "Total Tokens": 5943.0
+  },
+  {
+    "Agent": "Total",
+    "Cost ($)": 0.1732543,
+    "Prompt Tokens": 54592.0,
+    "Completion Tokens": 9385.0,
+    "Total Tokens": 63977.0
+  }
+]
