@@ -1,0 +1,909 @@
+
+==== ERROR on iteration Pass 1 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v3_citations.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+No file paper_v3_citations.aux.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+[1]
+
+Package natbib Warning: Citation `ballardini2022typeiasupernovaedata' on page 2
+ undefined on input line 30.
+
+
+Package natbib Warning: Citation `chen1995differentialrenormalizationscalarfiel
+d' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `buchbinder1997backgroundfieldmethodn' on page
+ 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `buchbinder1997backgroundfieldmethodn' on page
+ 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `langlois2018degeneratehigherorderscalartensor
+dhost' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `langlois2020quadraticdhosttheoriesrevisited' 
+on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `schucker2018gaugetheoreticalunderpinningsgene
+ral' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gomes2022samediffconceptualsimilaritiesgauge'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `ferrari2001algebraicaspectsbackgroundfield' o
+n page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `suzuki2015backgroundfieldmethodgradient' on p
+age 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `prinz2025brstdoublecomplexcoupling' on page 2
+ undefined on input line 30.
+
+
+Package natbib Warning: Citation `prinz2025symmetricghostlagrangedensities' on 
+page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `defelice2021nonlineardefinitionshadowymode' o
+n page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `defelice2021nonlineardefinitionshadowymode' o
+n page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `altschul2005lorentzviolationfaddeevpopovghost
+s' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `faizal2008fpghostpropagatorsyangmillstheories
+' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mckeon2024fieldredefinitioninvariantlagrange'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `brandt2024generalcovariantgaugefixing' on pag
+e 2 undefined on input line 30.
+
+[2]
+./paper_v3_citations.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...lcovariantgaugefixing}\begin{equation}$$S_
+                                                  {\text{gh}} = \int d^4x \s...
+
+./paper_v3_citations.tex:30: You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.30 ...\mathcal{M}_{\mu\nu} c^\nu$$\end{equation}
+                                                  where $c^\mu$ and $\bar{c}...
+
+./paper_v3_citations.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...\mathcal{M}_{\mu\nu} c^\nu$$\end{equation}
+                                                  where $c^\mu$ and $\bar{c}...
+
+
+Package natbib Warning: Citation `kugo2022covariantbrstquantizationunimodular' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `kugo2022covariantbrstquantizationunimodular' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `kakkad2022oneloopeffectiveactionapproach' on 
+page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `ferrero2025oneloopeffectiveactioncoherent' on
+ page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `liu2025scatteringapproachcalculatingoneloop' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `guendelman1993heatkernelcovariantbackground' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `moffat2026gaugeinvariantentirefunctionregulat
+orsuv' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `xue2014ultravioletfixedpointmassive' on page 
+3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `moffat2026gaugeinvariantentirefunctionregulat
+orsuv' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gusev2008heatkernelexpansioncovariant' on pag
+e 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `barvinsky2025schwingerdewittexpansionheatkern
+el' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `sauro2025heatkernelnonminimalsecondorder' on 
+page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `barvinsky2025functorialpropertiesschwingerdew
+ittexpansion' on page 3 undefined on input line 30.
+
+
+Overfull \hbox (145.42343pt too wide) detected at line 30
+\OT1/cmr/m/n/10 ^^@[] = [][] [] \OML/cmm/m/it/10 d[]x[] [] [] \OT1/cmr/m/n/10 =
+ [][] [] \OML/cmm/m/it/10 d[]x[] []
+
+Package natbib Warning: Citation `cho2003superfieldformalismloopeffective' on p
+age 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `boroojerdian2020geometricstructuresdifferenti
+aloperators' on page 3 undefined on input line 30.
+
+
+Overfull \hbox (39.02228pt too wide) detected at line 30
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = []([][] \OMS/cmsy/m/n/10 ^^@ [][]\OT1/cm
+r/m/n/10 )\OT1/cmr/bx/n/10 1 \OT1/cmr/m/n/10 + []^^E[] + []
+[]
+[] + [][][]^^E
+
+Package natbib Warning: Citation `gong2012covariantapproachgeneralfield' on pag
+e 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `hochberg1998renormalizationgroupimprovingeffe
+ctive' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `codello2015computingeffectiveactionfunctional
+' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `codello2015computingeffectiveactionfunctional
+' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `codello2015computingeffectiveactionfunctional
+' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `actis2006twolooprenormalizationstandardmodel'
+ on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mathiot2018renormalizationgroupequationsrevis
+ited' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `freedman1992cutoffprocedurecountertermsdiffer
+ential' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `li2012introductionrenormalizationfieldtheory'
+ on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mathiot2018renormalizationgroupequationsrevis
+ited' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mathiot2018renormalizationgroupequationsrevis
+ited' on page 3 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nbaalen2009qcdbetafunctionglobalsolutions}
+                                                  \end{equation}The beta-fun...
+
+
+Package natbib Warning: Citation `sonoda2003betafunctionsintegralequation' on p
+age 3 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nbaalen2009qcdbetafunctionglobalsolutions}
+                                                  \end{equation}The beta-fun...
+
+
+Package natbib Warning: Citation `vanbaalen2008qedbetafunctionglobalsolutions' 
+on page 3 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nbaalen2009qcdbetafunctionglobalsolutions}
+                                                  \end{equation}The beta-fun...
+
+
+Package natbib Warning: Citation `vanbaalen2009qcdbetafunctionglobalsolutions' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bakas2007renormalizationgroupequationsgeometr
+ic' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `jackson2013geometricrgflow' on page 3 undefin
+ed on input line 30.
+
+
+Package natbib Warning: Citation `jackson2013geometricrgflow' on page 3 undefin
+ed on input line 30.
+
+[3]
+Underfull \hbox (badness 2856) in paragraph at lines 30--30
+\TU/lmr/m/n/10 Using the chain rule, we can express this con-
+
+Underfull \hbox (badness 1694) in paragraph at lines 30--30
+\TU/lmr/m/n/10 dition in terms of our computed beta-functionals.
+
+Overfull \hbox (71.9396pt too wide) detected at line 30
+\OML/cmm/m/it/10 ^^V[][][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^L[] \OMS/cmsy/m
+/n/10 ^^@ [] [][] [] \OT1/cmr/m/n/10 0
+
+Overfull \hbox (10.23541pt too wide) detected at line 64
+[][]
+[4]
+
+LaTeX Warning: Reference `eq:flow_C4' on page 5 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:flow_C4' on page 5 undefined on input line 71.
+
+[5]
+No file paper_v3_citations.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[6] (./paper_v3_citations.aux)
+
+Package rerunfilecheck Warning: File `paper_v3_citations.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v3_citations.pdf (6 pages).
+Transcript written on paper_v3_citations.log.
+---- STDERR ----
+
+==== ERROR on iteration Final Pass 1 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v3_citations.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(./paper_v3_citations.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (./paper_v3_citations.out) (./paper_v3_citations.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+[1]
+
+Package natbib Warning: Citation `ballardini2022typeiasupernovaedata' on page 2
+ undefined on input line 30.
+
+
+Package natbib Warning: Citation `chen1995differentialrenormalizationscalarfiel
+d' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `buchbinder1997backgroundfieldmethodn' on page
+ 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `buchbinder1997backgroundfieldmethodn' on page
+ 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `langlois2018degeneratehigherorderscalartensor
+dhost' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `langlois2020quadraticdhosttheoriesrevisited' 
+on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `schucker2018gaugetheoreticalunderpinningsgene
+ral' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gomes2022samediffconceptualsimilaritiesgauge'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `ferrari2001algebraicaspectsbackgroundfield' o
+n page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `suzuki2015backgroundfieldmethodgradient' on p
+age 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `prinz2025brstdoublecomplexcoupling' on page 2
+ undefined on input line 30.
+
+
+Package natbib Warning: Citation `prinz2025symmetricghostlagrangedensities' on 
+page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `defelice2021nonlineardefinitionshadowymode' o
+n page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `defelice2021nonlineardefinitionshadowymode' o
+n page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `altschul2005lorentzviolationfaddeevpopovghost
+s' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `faizal2008fpghostpropagatorsyangmillstheories
+' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mckeon2024fieldredefinitioninvariantlagrange'
+ on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `brandt2024generalcovariantgaugefixing' on pag
+e 2 undefined on input line 30.
+
+[2]
+./paper_v3_citations.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...lcovariantgaugefixing}\begin{equation}$$S_
+                                                  {\text{gh}} = \int d^4x \s...
+
+./paper_v3_citations.tex:30: You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.30 ...\mathcal{M}_{\mu\nu} c^\nu$$\end{equation}
+                                                  where $c^\mu$ and $\bar{c}...
+
+./paper_v3_citations.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...\mathcal{M}_{\mu\nu} c^\nu$$\end{equation}
+                                                  where $c^\mu$ and $\bar{c}...
+
+
+Package natbib Warning: Citation `kugo2022covariantbrstquantizationunimodular' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `kugo2022covariantbrstquantizationunimodular' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `kakkad2022oneloopeffectiveactionapproach' on 
+page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `ferrero2025oneloopeffectiveactioncoherent' on
+ page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `liu2025scatteringapproachcalculatingoneloop' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `guendelman1993heatkernelcovariantbackground' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `moffat2026gaugeinvariantentirefunctionregulat
+orsuv' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `xue2014ultravioletfixedpointmassive' on page 
+3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `moffat2026gaugeinvariantentirefunctionregulat
+orsuv' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `gusev2008heatkernelexpansioncovariant' on pag
+e 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `barvinsky2025schwingerdewittexpansionheatkern
+el' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `sauro2025heatkernelnonminimalsecondorder' on 
+page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `barvinsky2025functorialpropertiesschwingerdew
+ittexpansion' on page 3 undefined on input line 30.
+
+
+Overfull \hbox (145.42343pt too wide) detected at line 30
+\OT1/cmr/m/n/10 ^^@[] = [][] [] \OML/cmm/m/it/10 d[]x[] [] [] \OT1/cmr/m/n/10 =
+ [][] [] \OML/cmm/m/it/10 d[]x[] []
+
+Package natbib Warning: Citation `cho2003superfieldformalismloopeffective' on p
+age 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `boroojerdian2020geometricstructuresdifferenti
+aloperators' on page 3 undefined on input line 30.
+
+
+Overfull \hbox (39.02228pt too wide) detected at line 30
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = []([][] \OMS/cmsy/m/n/10 ^^@ [][]\OT1/cm
+r/m/n/10 )\OT1/cmr/bx/n/10 1 \OT1/cmr/m/n/10 + []^^E[] + []
+[]
+[] + [][][]^^E
+
+Package natbib Warning: Citation `gong2012covariantapproachgeneralfield' on pag
+e 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `hochberg1998renormalizationgroupimprovingeffe
+ctive' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `codello2015computingeffectiveactionfunctional
+' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `codello2015computingeffectiveactionfunctional
+' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `codello2015computingeffectiveactionfunctional
+' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `actis2006twolooprenormalizationstandardmodel'
+ on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mathiot2018renormalizationgroupequationsrevis
+ited' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `freedman1992cutoffprocedurecountertermsdiffer
+ential' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `li2012introductionrenormalizationfieldtheory'
+ on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mathiot2018renormalizationgroupequationsrevis
+ited' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `mathiot2018renormalizationgroupequationsrevis
+ited' on page 3 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nbaalen2009qcdbetafunctionglobalsolutions}
+                                                  \end{equation}The beta-fun...
+
+
+Package natbib Warning: Citation `sonoda2003betafunctionsintegralequation' on p
+age 3 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nbaalen2009qcdbetafunctionglobalsolutions}
+                                                  \end{equation}The beta-fun...
+
+
+Package natbib Warning: Citation `vanbaalen2008qedbetafunctionglobalsolutions' 
+on page 3 undefined on input line 30.
+
+
+./paper_v3_citations.tex:30: LaTeX Error: Command \bfseries invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...nbaalen2009qcdbetafunctionglobalsolutions}
+                                                  \end{equation}The beta-fun...
+
+
+Package natbib Warning: Citation `vanbaalen2009qcdbetafunctionglobalsolutions' 
+on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `bakas2007renormalizationgroupequationsgeometr
+ic' on page 3 undefined on input line 30.
+
+
+Package natbib Warning: Citation `jackson2013geometricrgflow' on page 3 undefin
+ed on input line 30.
+
+
+Package natbib Warning: Citation `jackson2013geometricrgflow' on page 3 undefin
+ed on input line 30.
+
+[3]
+Underfull \hbox (badness 2856) in paragraph at lines 30--30
+\TU/lmr/m/n/10 Using the chain rule, we can express this con-
+
+Underfull \hbox (badness 1694) in paragraph at lines 30--30
+\TU/lmr/m/n/10 dition in terms of our computed beta-functionals.
+
+Overfull \hbox (71.9396pt too wide) detected at line 30
+\OML/cmm/m/it/10 ^^V[][][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^L[] \OMS/cmsy/m
+/n/10 ^^@ [] [][] [] \OT1/cmr/m/n/10 0
+
+Overfull \hbox (10.23541pt too wide) detected at line 64
+[][]
+[4] [5] (./paper_v3_citations.bbl [6] [7]) [8]
+
+Package natbib Warning: There were undefined citations.
+
+(./paper_v3_citations.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v3_citations.pdf (8 pages).
+Transcript written on paper_v3_citations.log.
+---- STDERR ----
+
+==== ERROR on iteration Final Pass 2 ====
+---- STDOUT ----
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./paper_v3_citations.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./aastex631.cls
+Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(./aas_macros.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(./paper_v3_citations.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (./paper_v3_citations.out) (./paper_v3_citations.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def)
+[1]
+Underfull \hbox (badness 1303) in paragraph at lines 30--30
+[]\TU/lmr/m/n/10 The action $\OML/cmm/m/it/10 S$ \TU/lmr/m/n/10 is invariant un
+der general coordi-
+[2]
+./paper_v3_citations.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...lcovariantgaugefixing}\begin{equation}$$S_
+                                                  {\text{gh}} = \int d^4x \s...
+
+./paper_v3_citations.tex:30: You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.30 ...\mathcal{M}_{\mu\nu} c^\nu$$\end{equation}
+                                                  where $c^\mu$ and $\bar{c}...
+
+./paper_v3_citations.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...\mathcal{M}_{\mu\nu} c^\nu$$\end{equation}
+                                                  where $c^\mu$ and $\bar{c}...
+
+
+Overfull \hbox (145.42343pt too wide) detected at line 30
+\OT1/cmr/m/n/10 ^^@[] = [][] [] \OML/cmm/m/it/10 d[]x[] [] [] \OT1/cmr/m/n/10 =
+ [][] [] \OML/cmm/m/it/10 d[]x[] []
+
+Overfull \hbox (39.02228pt too wide) detected at line 30
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = []([][] \OMS/cmsy/m/n/10 ^^@ [][]\OT1/cm
+r/m/n/10 )\OT1/cmr/bx/n/10 1 \OT1/cmr/m/n/10 + []^^E[] + []
+[]
+[] + [][][]^^E
+[3]
+Underfull \hbox (badness 2856) in paragraph at lines 30--30
+\TU/lmr/m/n/10 Using the chain rule, we can express this con-
+
+Underfull \hbox (badness 1694) in paragraph at lines 30--30
+\TU/lmr/m/n/10 dition in terms of our computed beta-functionals.
+
+Overfull \hbox (71.9396pt too wide) detected at line 30
+\OML/cmm/m/it/10 ^^V[][][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^L[] \OMS/cmsy/m
+/n/10 ^^@ [] [][] [] \OT1/cmr/m/n/10 0
+[4]
+Overfull \hbox (10.23541pt too wide) detected at line 64
+[][]
+[5] (./paper_v3_citations.bbl [6] [7]) [8] (./paper_v3_citations.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on paper_v3_citations.pdf (8 pages).
+Transcript written on paper_v3_citations.log.
+---- STDERR ----
